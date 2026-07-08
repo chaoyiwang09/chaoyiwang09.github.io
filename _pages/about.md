@@ -36,9 +36,9 @@ Beyond research
 ======
 Outside of the lab, I enjoy fitness, being outdoors, and spending time with animals.
 
-<p float="left">
-  <img src="/images/life1.jpg" width="45%" />
-  <img src="/images/life2.jpg" width="45%" />
-</p>
+<figure class="half">
+  <a href="/images/life1.jpg"><img src="/images/life1.jpg" alt="Chaoyi Wang outdoors"></a>
+  <a href="/images/life2.jpg"><img src="/images/life2.jpg" alt="Chaoyi Wang outdoors"></a>
+</figure>
 
 Feel free to reach out at [chaoyiwang@aliyun.com](mailto:chaoyiwang@aliyun.com).

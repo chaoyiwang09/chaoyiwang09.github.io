@@ -13,22 +13,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D. Student, Communication and Information Systems, University of Chinese Academy of Sciences, Shanghai, 2024–2027 (research at the Shanghai Institute of Microsystem and Information Technology, CAS)
-* M.S., Electrical and Computer Engineering, Johns Hopkins University, Baltimore, USA, 2017–2018 (GPA: 3.7/4.0)
+* Ph.D. Student, Communication and Information Systems, University of Chinese Academy of Sciences, Shanghai, 2024–2027
+* M.S., Electrical and Computer Engineering, Johns Hopkins University, Baltimore, USA, 2017–2018
 * B.S., Electrical and Computer Engineering, Shanghai Jiao Tong University, Shanghai, 2012–2017
 
 Work Experience
 ======
-* **Sensor Algorithm Engineer**, Research Department, Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences, Shanghai, Jul 2020 – Present
-  * Multimodal signal processing for acoustic, vibration, image, and infrared sensing under complex environments
-  * Designed and deployed target detection algorithms achieving over 90% detection rate in field conditions
-  * Implemented prototype algorithms in Python/MATLAB and migrated high-performance models to embedded platforms (C libraries) for national key projects
-  * Organized field experiments and built a multimodal sensor dataset with tens of thousands of annotated samples
-
-* **Speech Algorithm Engineer**, AI Education Department, Shanghai Leyan Technology Co., Ltd., Shanghai, May 2019 – Jul 2020
-  * Led development of Mandarin/English ASR and pronunciation assessment (GOP) systems on Kaldi for K12 reading evaluation
-  * Optimized acoustic model training over 10,000+ hours of youth speech data across 10+ iterations, reducing CER below 5%
-  * Applied data augmentation (speed perturbation, reverberation, noise injection, spectral augmentation) and domain-specific language models
+* **Sensor Algorithm Engineer**, University of Chinese Academy of Sciences, Shanghai, Jul 2020 – Present
+  * Multimodal signal processing and target detection for acoustic, vibration, image, and infrared sensing in real-world environments.
+* **Speech Algorithm Engineer**, Shanghai Leyan Technology Co., Ltd., Shanghai, May 2019 – Jul 2020
+  * ASR and pronunciation assessment systems for K12 English learning.
 
 Research Interests
 ======
