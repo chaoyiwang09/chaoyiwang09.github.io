@@ -21,24 +21,10 @@ A key theme of my work is how an agent can understand the world when visual evid
 
 Research Interests
 ======
-- Embodied Artificial Intelligence
-- Embodied Perception and Reasoning
-- Multimodal Large Language Models
-- Occlusion Reasoning and Partial Observation
-- UAV Perception and Autonomous Systems
-- Sensor Intelligence and Signal Processing
-- Generative AI and Video Generation
-- Vision-Language Reasoning
+- Embodied AI / Multimodal Reasoning / Occlusion Understanding
+- Sensor Intelligence / UAV Perception / Robust Sensing
+- Generative AI / Video Generation / Vision-Language Reasoning
 
-You can find the full list of my papers on the [Publications](/publications/) page and on my [Google Scholar profile](https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=zh-CN).
-
-Beyond research
-======
-Outside of the lab, I enjoy fitness, being outdoors, and spending time with animals.
-
-<figure class="half">
-  <a href="/images/life1.jpg"><img src="/images/life1.jpg" alt="Chaoyi Wang outdoors"></a>
-  <a href="/images/life2.jpg"><img src="/images/life2.jpg" alt="Chaoyi Wang outdoors"></a>
-</figure>
+You can find the full list of my papers on the [Publications](/publications/) page and on my [Google Scholar profile](https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=zh-CN). A few snapshots outside the lab are on the [Gallery](/portfolio/) page.
 
 Feel free to reach out at [chaoyiwang@aliyun.com](mailto:chaoyiwang@aliyun.com).

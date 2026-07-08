@@ -26,10 +26,9 @@ Work Experience
 
 Research Interests
 ======
-* Embodied Artificial Intelligence; Embodied Perception and Reasoning
-* Multimodal Large Language Models; Occlusion Reasoning and Partial Observation
-* UAV Perception and Autonomous Systems; Sensor Intelligence and Signal Processing
-* Generative AI and Video Generation; Vision-Language Reasoning
+* Embodied AI / Multimodal Reasoning / Occlusion Understanding
+* Sensor Intelligence / UAV Perception / Robust Sensing
+* Generative AI / Video Generation / Vision-Language Reasoning
 
 Selected Research Directions
 ======
