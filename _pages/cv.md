@@ -14,7 +14,7 @@ redirect_from:
 Education
 ======
 * Ph.D. Student, Communication and Information Systems, University of Chinese Academy of Sciences, Shanghai, 2024–2027
-* M.S., Electrical and Computer Engineering, Johns Hopkins University, Baltimore, USA, 2017–2018
+* M.S., Electrical and Computer Engineering, Johns Hopkins University, Baltimore, USA, 2017–2019
 * B.S., Electrical and Computer Engineering, Shanghai Jiao Tong University, Shanghai, 2012–2017
 
 Work Experience
