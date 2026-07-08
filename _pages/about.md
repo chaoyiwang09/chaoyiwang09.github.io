@@ -7,11 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at the **University of Chinese Academy of Sciences**, conducting research at the **Shanghai Institute of Microsystem and Information Technology**. I received my **M.S.** from **Johns Hopkins University** and my **B.S.** from **Shanghai Jiao Tong University**.
+I am a Ph.D. candidate at the **University of Chinese Academy of Sciences (UCAS)**, conducting research at the **Shanghai Institute of Microsystem and Information Technology (SIMIT, CAS)**. I received my **M.S.** from **Johns Hopkins University** and my **B.S.** from **Shanghai Jiao Tong University**.
 
-My research lies at the intersection of **embodied artificial intelligence**, **multimodal large language models**, **sensor intelligence**, and **generative vision**. I am interested in building intelligent agents that can perceive the physical world, reason over incomplete visual and sensory evidence, and make reliable decisions in real-world environments.
+My research focuses on **embodied multimodal intelligence**: building agents that can perceive, reason, and act reliably in the physical world. I am particularly interested in **active perception**, **multimodal reasoning under uncertainty**, **sensor-grounded decision-making**, and **edge deployment for real-world robotic systems**.
 
-My current projects use edge UAVs as physical testbeds for studying how embodied agents acquire reliable evidence under motion, compute, and partial-observability constraints.
+My current projects use **edge UAVs** as physical testbeds to study how embodied agents acquire reliable evidence under motion, computation, and partial-observability constraints. More broadly, my goal is to develop embodied AI systems that remain robust when visual and sensory evidence is incomplete, noisy, or ambiguous.
+
 
 Research
 ======
