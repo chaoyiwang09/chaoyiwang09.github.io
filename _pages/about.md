@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at the **University of Chinese Academy of Sciences**, conducting research at the **Shanghai Institute of Microsystem and Information Technology, Chinese Academy of Sciences**. I received my **M.S.** from **Johns Hopkins University** and my **B.S.** from **Shanghai Jiao Tong University**.
+I am a Ph.D. student at the **University of Chinese Academy of Sciences**, conducting research at the **Shanghai Institute of Microsystem and Information Technology**. I received my **M.S.** from **Johns Hopkins University** and my **B.S.** from **Shanghai Jiao Tong University**.
 
 My research lies at the intersection of **embodied artificial intelligence**, **multimodal large language models**, **sensor intelligence**, and **generative vision**. I am interested in building intelligent agents that can perceive the physical world, reason over incomplete visual and sensory evidence, and make reliable decisions in real-world environments.
+
+My current projects use edge UAVs as physical testbeds for studying how embodied agents acquire reliable evidence under motion, compute, and partial-observability constraints.
 
 Research
 ======
