@@ -18,9 +18,9 @@ Research
 ======
 My work progresses from **sensor perception**, to **multimodal generation and reasoning**, and ultimately to **embodied intelligence in real-world environments**.
 
-- **Sensor perception foundations.** I develop robust methods for acoustic, radar, infrared, and visual sensing in noisy, resource-constrained settings. *Representative papers:* [vehicle sound detection](/publication/2022-vehicle-sound-detection), [multichannel acoustic vehicle detection](/publication/2024-multichannel-acoustic-vehicles), and [infrared–visible image fusion](/publication/2024-b2mfuse).
-- **Multimodal generation and reasoning.** I study occlusion understanding with MLLMs and controllable visual generation, including [OCC-MLLM-CoT](/publication/2025-occ-mllm-cot), [CLEAR](/publication/2026-clear) (**ICML 2026 Oral**), and [Reasoning to Edit](/publication/2025-reasoning-to-edit) (**ICML 2026**).
-- **Embodied intelligence and real-world deployment.** I bring these perception and reasoning capabilities to edge UAVs, studying active perception and sensor-grounded decision-making under motion, limited compute, constrained viewpoints, and partial observability.
+- **Sensor perception foundations.** I develop robust methods for acoustic and visual sensing in noisy, resource-constrained settings. *Representative papers:* [Real-Time Vehicle Sound Detection](/publication/2022-vehicle-sound-detection) (*Remote Sensing*, 2022) and [Transformer-Based Low-Resolution Face Recognition](/publication/2022-transformer-lr-face) (*Neurocomputing*, 2022).
+- **Multimodal generation and reasoning.** I study controllable visual generation and visual reasoning, including [CLEAR](/publication/2026-clear) (**ICML 2026 Oral**) and [Reasoning to Edit](/publication/2025-reasoning-to-edit) (**ICML 2026**).
+- **Embodied intelligence and real-world deployment.** I bring perception and reasoning capabilities to edge UAVs, studying active perception and sensor-grounded decision-making under real-world constraints. *Representative projects:* the [OCC-MLLM series](/publication/2025-occ-mllm-cot), **PERCH**, and **STARE**.
 
 Research Interests
 ======
