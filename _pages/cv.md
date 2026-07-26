@@ -26,15 +26,15 @@ Work Experience
 
 Research Interests
 ======
-* Embodied AI / Multimodal Reasoning / Occlusion Understanding
 * Sensor Intelligence / UAV Perception / Robust Sensing
-* Generative AI / Video Generation / Vision-Language Reasoning
+* Generative AI / Multimodal Reasoning / Vision-Language Models
+* Embodied AI / Active Perception / Real-World Deployment
 
 Selected Research Directions
 ======
-* **Embodied multimodal reasoning & occlusion understanding** — the *OCC-MLLM* series: occlusion reasoning with multimodal large language models, 3D-aware supervision, chain-of-thought guidance, self-correction, and joint understanding–generation.
-* **Sensor intelligence & robust perception** — vehicle sound detection, multichannel acoustic detection, radar-based multi-target tracking, low-resolution recognition, infrared–visible image fusion, and small object detection.
-* **Generative AI & video intelligence** — mask-free video subtitle removal, consistency tuning for video generation, moving-dubbing benchmarks, whole-body digital human generation, multi-conditional text-to-image generation, and reasoning-guided image editing.
+* **Sensor perception foundations** — vehicle sound detection, multichannel acoustic detection, radar-based multi-target tracking, low-resolution recognition, infrared–visible image fusion, and small object detection.
+* **Multimodal generation and reasoning** — CLEAR (ICML 2026 Oral), Reasoning to Edit (ICML 2026), video generation, digital human / dubbing benchmarks, and the *OCC-MLLM* series on occlusion reasoning with multimodal LLMs.
+* **Embodied intelligence and real-world deployment** — active perception, multimodal reasoning under uncertainty, and edge-UAV testbeds for sensor-grounded decision-making under partial observation.
 
 Skills
 ======
