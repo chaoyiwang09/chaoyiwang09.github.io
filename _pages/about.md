@@ -16,17 +16,17 @@ My current projects use **edge UAVs** as physical testbeds to study how embodied
 
 Research
 ======
-My research follows a continuous path from sensing foundations to generative multimodal reasoning, and toward embodied intelligence in real-world systems. A shared theme is how an agent can understand the world when visual or sensory evidence is **incomplete, noisy, occluded, or ambiguous**.
+My research follows a progression from **sensor-grounded perception**, through **multimodal generation and reasoning**, toward **embodied intelligence for real-world deployment**. Across these stages, I study how agents can form reliable understanding and make decisions when observations are incomplete, noisy, occluded, or ambiguous.
 
-- **Sensor perception foundations.** My earlier work builds robust perception under real-world sensing constraints, including real-time vehicle sound detection, multichannel acoustic detection, radar-based multi-target tracking, low-resolution recognition, infrared–visible image fusion, and small object detection. This background in signal processing and sensor intelligence motivates perception under limited onboard computation, domain shift, and noisy signals.
-- **Multimodal generation and reasoning.** I then work on generative AI and vision-language reasoning, including mask-free video subtitle removal (**CLEAR**, Oral at ICML 2026), reasoning-guided image editing (**Reasoning to Edit**, ICML 2026), consistency tuning for video generation, adaptive moving-dubbing benchmarks, whole-body digital human generation, and multi-conditional text-to-image generation. In the *OCC-MLLM* series, I study occlusion reasoning with multimodal large language models via 3D-aware supervision, chain-of-thought guidance, self-correction, and joint understanding–generation — inferring hidden object properties from partial observations rather than closed-set classification.
-- **Embodied intelligence and real-world deployment.** Building on these foundations, my current focus is embodied multimodal intelligence: active perception, multimodal reasoning under uncertainty, and sensor-grounded decision-making for agents that must act under incomplete viewpoints and real-world constraints. I use **edge UAVs** as physical testbeds to study how such agents acquire reliable evidence under motion, computation, and partial-observability limits, and aim to deploy systems that remain robust beyond the lab.
+- **Sensor perception foundations.** My early work establishes a foundation in robust sensing and signal processing, including real-time vehicle sound detection, multichannel acoustic detection, radar-based multi-target tracking, infrared–visible image fusion, low-resolution recognition, and small object detection. These projects address the reliability of perception from heterogeneous sensors under real-world noise and resource constraints.
+- **Multimodal generation and reasoning.** Building on this perception foundation, I develop models that reason about and generate visual content. In the *OCC-MLLM* series, I investigate occlusion reasoning with multimodal large language models through 3D-aware supervision, structured reasoning, self-correction, and joint understanding–generation. My generative work also includes mask-free video subtitle removal (**CLEAR**, Oral at ICML 2026), reasoning-guided image editing (**Reasoning to Edit**, ICML 2026), video generation, and digital human generation.
+- **Embodied intelligence and real-world deployment.** I connect robust perception and multimodal reasoning to embodied agents that must acquire evidence, reason, and act in dynamic physical environments. Edge UAVs serve as a key testbed for studying active perception and sensor-grounded decision-making under motion, limited computation, constrained viewpoints, and partial observability.
 
 Research Interests
 ======
+- Embodied AI / Multimodal Reasoning / Occlusion Understanding
 - Sensor Intelligence / UAV Perception / Robust Sensing
-- Generative AI / Multimodal Reasoning / Vision-Language Models
-- Embodied AI / Active Perception / Real-World Deployment
+- Generative AI / Video Generation / Vision-Language Reasoning
 
 You can find the full list of my papers on the [Publications](/publications/) page and on my [Google Scholar profile](https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=zh-CN). A few snapshots outside the lab are on the [Gallery](/portfolio/) page.
 
