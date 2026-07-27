@@ -29,12 +29,4 @@ Three threads
 
 **Embodied occlusion intelligence.** The first-author **OCC-MLLM** series (IVC / CVIU / JVCIR) develops multimodal LLM agents that reason about occluded objects with 3D-aware supervision, chain-of-thought guidance, and self-correction. Ongoing **PERCH** / **STARE** directions connect this to active and sustained observation on edge UAVs.
 
-What I want in a postdoc
-======
-I am looking for groups working on **embodied AI**, **multimodal reasoning**, **robot perception**, or **vision-language agents**, where I can:
-
-- push occlusion / partial-observability reasoning into interactive agents;
-- couple generative multimodal models with real sensing constraints;
-- evaluate systems on physical platforms, not only static benchmarks.
-
 Contact: [chaoyiwang@aliyun.com](mailto:chaoyiwang@aliyun.com) · [chaoyiwang@mail.sim.ac.cn](mailto:chaoyiwang@mail.sim.ac.cn) · [Google Scholar](https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=zh-CN) · [Projects & Demos](/projects/) · [CV PDF](/files/Chaoyi_Wang_CV.pdf)

@@ -54,4 +54,4 @@ Research Interests
 - Generative AI / Video Generation / Vision-Language Reasoning
 - Embodied AI / Occlusion Understanding / Edge UAV Systems
 
-I am exploring **postdoctoral opportunities** in embodied AI, multimodal reasoning, and vision-language systems. A one-page narrative is on the [Research](/research/) page. Feel free to reach out at [chaoyiwang@aliyun.com](mailto:chaoyiwang@aliyun.com) or [chaoyiwang@mail.sim.ac.cn](mailto:chaoyiwang@mail.sim.ac.cn).
+Feel free to reach out at [chaoyiwang@aliyun.com](mailto:chaoyiwang@aliyun.com) or [chaoyiwang@mail.sim.ac.cn](mailto:chaoyiwang@mail.sim.ac.cn).
