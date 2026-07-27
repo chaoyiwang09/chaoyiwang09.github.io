@@ -25,14 +25,14 @@
 }
 
 .demo-card {
-  margin: 0;
-  background: rgba(0, 0, 0, 0.03);
+  background: var(--academic-paper, #fbfcfd);
   border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 6px;
+  border-radius: 2px;
   overflow: hidden;
   min-height: 160px;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .demo-card img {
@@ -123,7 +123,7 @@
 .demo-hero img {
   width: 100%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 2px;
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 

@@ -7,11 +7,11 @@ redirect_from:
   - /research-statement/
 ---
 
-A short research narrative for faculty readers. Full demos live on [Projects](/projects/); papers on [Publications](/publications/).
+A concise research narrative. Demos: [Projects](/projects/). Papers: [Publications](/publications/).
 
 Agenda
 ======
-I want to build **embodied multimodal agents** that remain reliable when the world is only partially observed. My path is intentionally cumulative:
+I aim to build **embodied multimodal agents** that remain reliable when the world is only partially observed. The path is cumulative:
 
 1. **Make sensing trustworthy** under noise, low resolution, and limited compute.
 2. **Make multimodal models reason and generate** beyond closed-set recognition — especially under occlusion and implicit instructions.

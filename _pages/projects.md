@@ -11,10 +11,10 @@ redirect_from:
   - /demos.html
 ---
 
-Selected projects with papers, code, and visual demos. Large CLEAR demos are **click-to-load** from the GitHub repository so this page stays fast for first-time visitors.
+Selected projects with papers, code, and visual demos. CLEAR animations are **click-to-load** from GitHub.
 
 <div class="notice--info" markdown="1">
-**For faculty / collaborators:** start with [CLEAR](#clear) (ICML 2026 Oral, equal first author) and the [OCC-MLLM series](#occ-mllm) (first author). Read the one-page [Research Agenda](/research/), then browse demos below.
+Start with [CLEAR](#clear) (ICML 2026 Oral, equal first author) and the [OCC-MLLM series](#occ-mllm) (first author). Narrative: [Research](/research/).
 </div>
 
 | Project | Venue / Status | Role | One-line |
