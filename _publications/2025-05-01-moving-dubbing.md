@@ -3,7 +3,7 @@ title: "Towards Film-Making Production Dialogue, Narration, Monologue Adaptive M
 collection: publications
 category: preprints
 permalink: /publication/2025-moving-dubbing
-excerpt: 'Adaptive moving-dubbing benchmarks for film-making production dialogue, narration, and monologue.'
+excerpt: 'First author. Adaptive moving-dubbing benchmarks for film-making production dialogue, narration, and monologue.'
 date: 2025-05-01
 venue: 'arXiv preprint arXiv:2505.01450'
 paperurl: 'https://arxiv.org/abs/2505.01450'

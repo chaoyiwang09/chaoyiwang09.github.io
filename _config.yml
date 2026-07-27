@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Chaoyi Wang"
 title_separator          : "-"
 name                     : &name "Chaoyi Wang"
-description              : &description "Personal academic website of Chaoyi Wang"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ph.D. candidate at UCAS / SIMIT, CAS. Embodied multimodal intelligence, occlusion reasoning, and generative vision. ICML 2026 Oral (CLEAR)."
 url                      : "https://chaoyiwang09.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,8 +25,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Chaoyi Wang"
-  pronouns         : "he/his"  
-  bio              : "Ph.D. student working on embodied AI, multimodal large language models, and sensor intelligence."
+  pronouns         : "he/him"  
+  bio              : "Ph.D. candidate · Embodied multimodal AI · ICML 2026 Oral (CLEAR)"
   location         : "Shanghai, China"
   employer         : "University of Chinese Academy of Sciences"
   uri              : "https://chaoyiwang09.github.io"
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # Username
+  github           : "chaoyiwang09"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -84,12 +84,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  conferences:
+    title: 'Conference Papers'
   manuscripts:
     title: 'Journal Articles'
   preprints:
     title: 'Preprints'
-  conferences:
-    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -143,8 +143,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.png"
+og_description           : "Ph.D. candidate at UCAS / SIMIT, CAS. Embodied multimodal intelligence. ICML 2026 Oral (CLEAR)."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

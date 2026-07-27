@@ -1,0 +1,158 @@
+/* Project / demo page helpers */
+
+.project-links {
+  margin: 0.75rem 0 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-links .btn {
+  margin: 0;
+}
+
+.page__content table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.demo-card {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  overflow: hidden;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.demo-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: cover;
+  background: #111;
+}
+
+.demo-card .demo-load {
+  flex: 1;
+  margin: 0;
+  min-height: 140px;
+  border: 0;
+  background: linear-gradient(160deg, #1f2937, #111827);
+  color: #f9fafb;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.demo-card .demo-load:hover,
+.demo-card .demo-load:focus {
+  background: linear-gradient(160deg, #374151, #1f2937);
+}
+
+.demo-card .demo-load:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.demo-preview {
+  position: relative;
+  background: #111;
+}
+
+.demo-preview > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: cover;
+  opacity: 0.92;
+}
+
+.demo-preview .demo-load {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 0;
+  flex: none;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  background: rgba(17, 24, 39, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.demo-preview .demo-load:hover,
+.demo-preview .demo-load:focus {
+  background: rgba(31, 41, 55, 0.95);
+}
+
+@media (max-width: 600px) {
+  .demo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-links .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.demo-card figcaption {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.demo-hero {
+  margin: 1rem 0;
+}
+
+.demo-hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.demo-note {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.page__content .half {
+  margin-top: 0.75rem;
+}
+
+.news-list,
+.page__content ul.highlight-bullets {
+  margin-bottom: 1.25rem;
+}
+
+html[data-theme="dark"] .demo-card {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+html[data-theme="dark"] .demo-card figcaption,
+html[data-theme="dark"] .demo-note {
+  color: #bbb;
+}
+
+html[data-theme="dark"] .demo-hero img {
+  border-color: rgba(255, 255, 255, 0.1);
+}

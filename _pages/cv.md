@@ -10,10 +10,13 @@ redirect_from:
 {% include base_path %}
 
 [Download my full CV (PDF)](/files/Chaoyi_Wang_CV.pdf){: .btn .btn--primary}
+[1-page CV (中文)](/files/Chaoyi_Wang_CV_1page_CN.pdf){: .btn .btn--primary}
+[Projects & Demos](/projects/){: .btn .btn--primary}
+[Google Scholar](https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=zh-CN){: .btn .btn--primary}
 
 Education
 ======
-* Ph.D. Student, Communication and Information Systems, University of Chinese Academy of Sciences, Shanghai, 2024–2027
+* Ph.D. Candidate, Communication and Information Systems, University of Chinese Academy of Sciences, Shanghai, 2024–Present
 * M.S., Electrical and Computer Engineering, Johns Hopkins University, Baltimore, USA, 2017–2019
 * B.S., Electrical and Computer Engineering, Shanghai Jiao Tong University, Shanghai, 2012–2017
 
@@ -26,22 +29,42 @@ Work Experience
 
 Research Interests
 ======
-* Embodied AI / Multimodal Reasoning / Occlusion Understanding
-* Sensor Intelligence / UAV Perception / Robust Sensing
+* Sensor Intelligence / Robust Sensing / Low-resolution Perception
 * Generative AI / Video Generation / Vision-Language Reasoning
+* Embodied AI / Occlusion Understanding / Edge UAV Systems
+
+Selected Highlights
+======
+* **ICML 2026 Oral & Spotlight** — CLEAR (equal contribution): mask-free video subtitle removal; **0.77%** trainable parameters; **+6.77 dB PSNR**.
+* **ICML 2026** — Reasoning to Edit / ReasonBrain: hypothetical instruction-based image editing with visual reasoning.
+* **First-author OCC-MLLM series** — occlusion reasoning with multimodal LLMs (IVC / CVIU / JVCIR); CoT variant **+11.14%** decision score.
+* **First-author sensor work** — real-time vehicle sound detection (*Remote Sensing*, 2022).
+* **Industry + systems experience** — sensor algorithm deployment and speech ASR/GOP systems.
 
 Selected Research Directions
 ======
-* **Embodied multimodal reasoning & occlusion understanding** — the *OCC-MLLM* series: occlusion reasoning with multimodal large language models, 3D-aware supervision, chain-of-thought guidance, self-correction, and joint understanding–generation.
-* **Sensor intelligence & robust perception** — vehicle sound detection, multichannel acoustic detection, radar-based multi-target tracking, low-resolution recognition, infrared–visible image fusion, and small object detection.
-* **Generative AI & video intelligence** — mask-free video subtitle removal, consistency tuning for video generation, moving-dubbing benchmarks, whole-body digital human generation, multi-conditional text-to-image generation, and reasoning-guided image editing.
+* **Sensor perception foundations** — acoustic and visual sensing under noise and resource constraints (*Remote Sensing*, *Neurocomputing*, *IEEE Sensors / IoTJ / TIM*).
+* **Multimodal generation and reasoning** — CLEAR (**ICML 2026 Oral**, equal contribution), ReasonBrain (**ICML 2026**), and related generative vision systems.
+* **Embodied intelligence and deployment** — OCC-MLLM series (first author), plus ongoing **PERCH** / **STARE** work on edge-UAV testbeds.
 
 Skills
 ======
-* Deep learning & multimodal large language models
-* Computer vision, video generation, and image editing
-* Signal processing, acoustic and radar sensing, robust perception
-* Python, PyTorch; model training, evaluation, and benchmark design
+* Multimodal LLMs, diffusion / video generation, visual reasoning
+* Computer vision, occlusion understanding, robust perception
+* Acoustic / radar / infrared sensing; edge-oriented algorithm design
+* Python, PyTorch, C/C++, MATLAB; dataset construction and system deployment
+
+Selected Patents
+======
+* A long-video generation method based on background transition, 2023
+* Field moving-vehicle detection based on convolutional recurrent neural networks, 2023
+* Pixel-robust fine-grained classification with large convolution kernels, 2023
+* DOA estimation with wavelet denoising and MUSIC, 2021
+* Robust moving-target counting with sensor arrays, 2021
+
+Awards
+======
+* NVIDIA–Alibaba Cloud Heterogeneous Computing TensorRT AI Inference Hackathon Excellence Award, 2021
 
 Publications
 ======

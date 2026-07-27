@@ -6,10 +6,19 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">Complete and up-to-date list on <a href="{{site.author.googlescholar}}">Google Scholar</a>. “*” denotes equal contribution. Visual demos: <a href="/projects/">Projects</a>.</div>
 {% endif %}
 
 {% include base_path %}
+
+<h2>Featured</h2>
+<hr />
+<ul>
+  <li><strong>CLEAR</strong> — ICML 2026 <strong>Oral &amp; Spotlight</strong> (*equal contribution*) · +6.77 dB PSNR · 0.77% trainable params · <a href="/publication/2026-clear">entry</a> · <a href="/projects/#clear">demos</a> · <a href="https://arxiv.org/abs/2603.21901">arXiv</a> · <a href="https://github.com/silent-commit/CLEAR">code</a></li>
+  <li><strong>Reasoning to Edit / ReasonBrain</strong> — ICML 2026 · Reason50K · <a href="/publication/2025-reasoning-to-edit">entry</a> · <a href="/projects/#reasonbrain">demos</a> · <a href="https://arxiv.org/abs/2507.01908">arXiv</a> · <a href="https://github.com/hithqd/ReasonBrain">code</a></li>
+  <li><strong>OCC-MLLM series</strong> (first author) — IVC / CVIU / JVCIR · +11.14% decision score (CoT) · <a href="/projects/#occ-mllm">overview</a> · <a href="https://github.com/chaoyiwang09/OCC-MLLM">code</a></li>
+  <li><strong>Real-Time Vehicle Sound Detection</strong> (first author) — <i>Remote Sensing</i>, 2022 · <a href="/publication/2022-vehicle-sound-detection">entry</a></li>
+</ul>
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
@@ -31,6 +40,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
