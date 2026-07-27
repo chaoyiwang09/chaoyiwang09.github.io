@@ -4,153 +4,120 @@
 <meta charset="utf-8">
 <title>王超懿 — 个人简历</title>
 <style>
-  @page {
-    size: A4;
-    margin: 10mm 12mm 10mm 12mm;
-  }
+  @page { size: A4; margin: 11mm 13mm 11mm 13mm; }
   * { box-sizing: border-box; }
   html, body {
-    margin: 0;
-    padding: 0;
-    color: #111;
-    background: #fff;
-    font-family: "SimSun", "Songti SC", "Noto Serif CJK SC", "Times New Roman", Times, serif;
-    font-size: 9.2pt;
-    line-height: 1.25;
+    margin: 0; padding: 0; color: #181818; background: #fff;
+    font-family: "Times New Roman", Times, "SimSun", "Songti SC", serif;
+    font-size: 9.2pt; line-height: 1.28;
   }
-  .page {
-    width: 186mm;
-    max-height: 277mm;
-    margin: 0 auto;
-    overflow: hidden;
-  }
-  header {
-    text-align: center;
-    margin-bottom: 4pt;
+  .page { width: 184mm; margin: 0 auto; }
+  header { text-align: center; }
+  .cv-label {
+    margin: 0 0 3pt; font-size: 7.8pt; letter-spacing: 0.42em; color: #666;
+    font-family: "SimHei", "Microsoft YaHei", sans-serif;
   }
   h1 {
-    margin: 0 0 2pt;
-    font-size: 18pt;
-    font-weight: 700;
-    letter-spacing: 0.4em;
-    font-family: "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
+    margin: 0; font-size: 19.5pt; font-weight: 700; letter-spacing: 0.32em;
+    font-family: "SimHei", "Microsoft YaHei", "PingFang SC", sans-serif;
   }
-  .subtitle {
-    margin: 0 0 2pt;
-    font-size: 8.8pt;
-    color: #222;
-  }
-  .contact {
-    font-size: 8.3pt;
-    line-height: 1.35;
-  }
-  .contact a {
-    color: #111;
-    text-decoration: none;
-  }
-  hr.top {
-    border: 0;
-    border-top: 1.1pt solid #111;
-    margin: 4pt 0 1pt;
-  }
+  .en-name { margin: 2pt 0 3pt; font-size: 11pt; font-weight: 700; letter-spacing: 0.06em; }
+  .role { margin: 0 0 3pt; font-size: 8.5pt; color: #2a2a2a; }
+  .contact { font-size: 8.1pt; line-height: 1.4; color: #222; }
+  .contact a { color: #181818; text-decoration: none; }
+  .rule { border: 0; border-top: 1.4pt solid #111; margin: 5.5pt 0 0; }
+  .rule-thin { border: 0; border-top: 0.4pt solid #555; margin: 1.6pt 0 3pt; }
   h2 {
-    margin: 5.5pt 0 2pt;
-    font-size: 9.6pt;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    border-bottom: 0.65pt solid #333;
-    padding-bottom: 1pt;
-    font-family: "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
+    margin: 5.5pt 0 2.2pt; font-size: 9.3pt; font-weight: 700; letter-spacing: 0.22em;
+    border-bottom: 0.65pt solid #222; padding-bottom: 1.2pt;
+    font-family: "SimHei", "Microsoft YaHei", "PingFang SC", sans-serif;
   }
-  .row {
-    display: flex;
-    justify-content: space-between;
-    gap: 8pt;
-    margin: 1.5pt 0;
-  }
-  .row .left { flex: 1; }
-  .row .right {
-    white-space: nowrap;
-    text-align: right;
-    color: #222;
-    font-size: 8.8pt;
-  }
+  .row { display: flex; justify-content: space-between; gap: 10pt; margin: 1.8pt 0; }
+  .row .left { flex: 1; min-width: 0; }
+  .row .right { white-space: nowrap; text-align: right; font-size: 8.6pt; color: #222; }
   .degree { font-weight: 700; }
-  ul {
-    margin: 1pt 0 2pt 12pt;
-    padding: 0;
+  .inst { font-style: italic; }
+  ul { margin: 1pt 0 2pt 12.5pt; padding: 0; }
+  li { margin: 1pt 0; }
+  .pubs { margin: 0; padding: 0; list-style: none; }
+  .pubs li {
+    display: flex; gap: 5pt; margin: 2.3pt 0;
+    text-align: justify; font-size: 8.3pt; line-height: 1.24;
   }
-  li { margin: 0.8pt 0; }
-  .pub {
-    margin: 2pt 0;
-    text-align: justify;
-    font-size: 8.6pt;
-    line-height: 1.22;
-  }
+  .pubs .n { flex: 0 0 13pt; color: #555; }
+  .pubs .t { flex: 1; min-width: 0; }
   .venue { font-style: italic; }
   .tag { font-weight: 700; }
-  .note {
-    font-size: 8pt;
-    color: #333;
-    margin: 0.5pt 0 2pt;
-  }
-  .tight { margin: 1pt 0 0; }
-  .interest {
-    margin: 1pt 0 0;
-    text-align: justify;
-  }
+  .note { font-size: 7.6pt; color: #555; margin: 0 0 1.5pt; }
+  .interest, .tight { margin: 1.5pt 0 0; text-align: justify; }
+  .two-col { display: flex; gap: 14pt; }
+  .two-col > div { flex: 1; }
+  .two-col ul { margin-top: 0; }
 </style>
 </head>
 <body>
 <div class="page">
   <header>
+    <div class="cv-label">个人简历</div>
     <h1>王超懿</h1>
-    <div class="subtitle">博士研究生 · 中国科学院大学 / 中科院上海微系统与信息技术研究所</div>
+    <div class="en-name">Chaoyi Wang</div>
+    <div class="role">博士研究生 · 中国科学院大学 / 中科院上海微系统与信息技术研究所</div>
     <div class="contact">
       上海 · +86 158-0096-3106 ·
       <a href="mailto:chaoyiwang@aliyun.com">chaoyiwang@aliyun.com</a> ·
       <a href="mailto:chaoyiwang@mail.sim.ac.cn">chaoyiwang@mail.sim.ac.cn</a><br>
       <a href="https://chaoyiwang09.github.io">chaoyiwang09.github.io</a> ·
       <a href="https://scholar.google.com/citations?user=e_wL1LsAAAAJ&amp;hl=zh-CN">Google Scholar</a> ·
-      ORCID 0000-0003-0164-1953 ·
+      ORCID: 0000-0003-0164-1953 ·
       <a href="https://github.com/chaoyiwang09">GitHub</a>
     </div>
   </header>
-  <hr class="top">
+  <hr class="rule"><hr class="rule-thin">
 
   <h2>教育背景</h2>
   <div class="row">
-    <div class="left"><span class="degree">博士研究生</span>，通信与信息系统，中国科学院大学（培养单位：中科院上海微系统与信息技术研究所）</div>
-    <div class="right">2024.09 – 至今</div>
+    <div class="left">
+      <span class="degree">博士研究生</span>，通信与信息系统<br>
+      中国科学院大学（培养单位：中科院上海微系统与信息技术研究所）
+    </div>
+    <div class="right">2024.09 – 至今<br>上海</div>
   </div>
   <div class="row">
-    <div class="left"><span class="degree">硕士</span>，电子与计算机工程，约翰霍普金斯大学（Johns Hopkins University）</div>
-    <div class="right">2017.08 – 2019.05</div>
+    <div class="left">
+      <span class="degree">硕士</span>，电子与计算机工程<br>
+      <span class="inst">Johns Hopkins University</span>
+    </div>
+    <div class="right">2017.08 – 2019.05<br>美国</div>
   </div>
   <div class="row">
-    <div class="left"><span class="degree">学士</span>，电子与计算机工程，上海交通大学</div>
-    <div class="right">2012.09 – 2017.07</div>
+    <div class="left">
+      <span class="degree">学士</span>，电子与计算机工程<br>
+      上海交通大学 <span class="inst">/ Shanghai Jiao Tong University</span>
+    </div>
+    <div class="right">2012.09 – 2017.07<br>上海</div>
   </div>
 
   <h2>研究方向</h2>
   <p class="interest">具身多模态智能；多模态大模型推理与生成；遮挡 / 部分可观测感知与决策；鲁棒传感与边缘部署（无人机等）。</p>
 
+  <h2>研究亮点</h2>
+  <ul>
+    <li><strong>ICML 2026 Oral &amp; Spotlight</strong>（共同一作）：CLEAR 无掩码视频字幕去除，可训练参数仅 <strong>0.77%</strong>，中文基准 <strong>+6.77 dB PSNR</strong>，跨语言零样本泛化。</li>
+    <li><strong>OCC-MLLM 系列一作</strong>（IVC / CVIU / JVCIR）：遮挡场景多模态推理与自校正，相对 SOTA MLLM 决策分数约 <strong>+11.14%</strong>。</li>
+    <li><strong>传感 → 具身</strong>：声学 / 视觉鲁棒感知贯通至边缘无人机主动观测（PERCH / STARE）；代码与模型已开源。</li>
+  </ul>
+
   <h2>代表性论文</h2>
-  <p class="note">* 共同一作。姓名加粗为本人。完整列表见个人主页 / Google Scholar。</p>
-
-  <div class="pub"><strong>何庆东*</strong>，<strong>王超懿*</strong>，唐鹏，杨一帆，胡晓斌. CLEAR: Context-Aware Learning with End-to-End Mask-Free Inference for Adaptive Video Subtitle Removal. <span class="venue">ICML</span>, 2026. <span class="tag">Oral &amp; Spotlight</span>.</div>
-
-  <div class="pub">何庆东*，陈雪琴*，<strong>王超懿</strong>，等. Reasoning to Edit: Hypothetical Instruction-Based Image Editing with Visual Reasoning. <span class="venue">ICML</span>, 2026.</div>
-
-  <div class="pub"><strong>王超懿</strong>，孟方舟，裴骏，等. OCC-MLLM-CoT: Self-correction enhanced occlusion recognition with LLMs via 3D-aware supervision and CoT guidance. <span class="venue">Image and Vision Computing</span>, 2026.（一作）</div>
-
-  <div class="pub"><strong>王超懿</strong>，何庆东，裴骏，等. OCC-MLLM-V1: Occlusion reasoning with commonsense-guided Multi-modal LLM based agent. <span class="venue">Computer Vision and Image Understanding</span>, 2026.（一作）</div>
-
-  <div class="pub"><strong>王超懿</strong>，何庆东，杨一帆，等. OCC-MLLM-V2: Joint understanding and generation for occluded objects via multi-modal token learning. <span class="venue">Journal of Visual Communication and Image Representation</span>, 2026.（一作）</div>
-
-  <div class="pub"><strong>王超懿</strong>，宋耀哲，唐红英，等. Real-time vehicle sound detection based on depthwise separable CNN and spectrogram augmentation. <span class="venue">Remote Sensing</span>, 2022.（一作）</div>
-
-  <div class="pub">宋耀哲，<strong>王超懿</strong>，唐红英，等. LLRFaceFormer: Lightweight face transformer for real-world low-resolution recognition. <span class="venue">IEEE Internet of Things Journal</span>, 2024.</div>
+  <p class="note">* Equal contribution. 加粗为本人。完整列表见 Google Scholar / chaoyiwang09.github.io/publications。</p>
+  <ol class="pubs">
+    <li><span class="n">[1]</span><span class="t"><strong>Qingdong He*</strong>, <strong>Chaoyi Wang*</strong>, Peng Tang, Yifan Yang, Xiaobin Hu. “CLEAR: Context-Aware Learning with End-to-End Mask-Free Inference for Adaptive Video Subtitle Removal.” <span class="venue">International Conference on Machine Learning (ICML)</span>, 2026. <span class="tag">Oral &amp; Spotlight</span>.</span></li>
+    <li><span class="n">[2]</span><span class="t">Qingdong He*, Xueqin Chen*, <strong>Chaoyi Wang</strong>, Yanjie Pan, Xiaobin Hu, et al. “Reasoning to Edit: Hypothetical Instruction-Based Image Editing with Visual Reasoning.” <span class="venue">ICML</span>, 2026.</span></li>
+    <li><span class="n">[3]</span><span class="t"><strong>Chaoyi Wang</strong>, Fangzhou Meng, Jun Pei, Lijie Xia, Jianpo Liu, Xiaobing Yuan, Xinhan Di. “OCC-MLLM-CoT: Self-correction enhanced occlusion recognition with large language models via 3D-aware supervision and chain-of-thoughts guidance.” <span class="venue">Image and Vision Computing</span>, 167:105881, 2026.</span></li>
+    <li><span class="n">[4]</span><span class="t"><strong>Chaoyi Wang</strong>, Qingdong He, Jun Pei, Lijie Xia, Jianpo Liu, Baoqing Li, Xinhan Di. “OCC-MLLM-V1: Occlusion reasoning with commonsense-guided Multi-modal LLM based agent via internal Chain-of-Thoughts (CoTs).” <span class="venue">Computer Vision and Image Understanding</span>, 270:104828, 2026.</span></li>
+    <li><span class="n">[5]</span><span class="t"><strong>Chaoyi Wang</strong>, Qingdong He, Yifan Yang, Jun Pei, Lijie Xia, Jianpo Liu, Baoqing Li, Xinhan Di. “OCC-MLLM-V2: Joint understanding and generation for occluded objects via multi-modal token learning.” <span class="venue">Journal of Visual Communication and Image Representation</span>, 119:104887, 2026.</span></li>
+    <li><span class="n">[6]</span><span class="t"><strong>Chaoyi Wang</strong>, Yaozhe Song, Hongying Tang, et al. “Real-time vehicle sound detection system based on depthwise separable convolution neural network and spectrogram augmentation.” <span class="venue">Remote Sensing</span>, 14(19):4848, 2022.</span></li>
+    <li><span class="n">[7]</span><span class="t">Yaozhe Song, <strong>Chaoyi Wang</strong>, Hongying Tang, et al. “LLRFaceFormer: Lightweight face transformer for real-world low-resolution recognition.” <span class="venue">IEEE Internet of Things Journal</span>, 11(9):16769–16787, 2024.</span></li>
+  </ol>
 
   <h2>研究与工作经历</h2>
   <div class="row">
@@ -158,26 +125,37 @@
     <div class="right">2020.07 – 至今</div>
   </div>
   <ul>
-    <li>面向声振 / 图像 / 红外等多模态传感，研发噪声与资源约束下的检测与信号处理算法，并完成嵌入式部署与外场验证。</li>
-    <li>主导 / 参与 OCC-MLLM 遮挡推理系列（一作）、CLEAR 视频字幕去除（ICML Oral，共同一作）及边缘无人机具身感知方向（PERCH / STARE）。</li>
+    <li>声学 / 振动 / 图像 / 红外多模态传感：噪声与资源约束下的检测与信号处理，完成嵌入式部署与外场验证。</li>
+    <li>主导 / 参与 OCC-MLLM、CLEAR（ICML Oral）及边缘无人机具身方向（PERCH / STARE）；维护开源代码与演示。</li>
   </ul>
   <div class="row">
     <div class="left"><span class="degree">语音算法工程师</span>，上海乐言科技股份有限公司</div>
     <div class="right">2019.05 – 2020.07</div>
   </div>
   <ul>
-    <li>负责中英文 ASR 与发音评测（GOP）算法，服务 K12 英语学习产品。</li>
+    <li>中英文 ASR 与发音评测（GOP）算法研发，服务 K12 英语学习产品落地。</li>
   </ul>
 
-  <h2>专利与获奖</h2>
-  <ul>
-    <li>专利（选）：长视频背景过渡生成（2023）；野外运动车辆检测（2023）；传感器阵列鲁棒运动目标计数（2021）。</li>
-    <li>NVIDIA–阿里云异构计算 TensorRT AI 推理黑客松优秀奖（2021）。</li>
-  </ul>
+  <h2>开源、专利与获奖</h2>
+  <div class="two-col">
+    <div>
+      <ul>
+        <li><strong>CLEAR</strong>：代码 / 模型 / Demo（GitHub · Hugging Face）</li>
+        <li><strong>OCC-MLLM</strong> · <strong>ReasonBrain</strong>：开源代码与演示</li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>专利（选）：长视频背景过渡生成、野外车辆检测、传感器阵列计数（2021–2023）</li>
+        <li>NVIDIA–阿里云 TensorRT AI 推理黑客松优秀奖（2021）</li>
+      </ul>
+    </div>
+  </div>
 
   <h2>专业技能</h2>
-  <p class="tight"><strong>研究：</strong>多模态大模型、扩散 / 视频生成、遮挡推理、计算机视觉、鲁棒感知。<br>
-  <strong>工程：</strong>Python、PyTorch、C/C++、MATLAB；数据集构建；边缘算法部署。<strong>语言：</strong>英语（TOEFL 102 / IELTS 7.5）；中文母语。</p>
+  <p class="tight"><strong>研究：</strong>多模态大模型、扩散 / 视频生成、遮挡推理、计算机视觉、鲁棒感知　
+  <strong>工程：</strong>Python、PyTorch、C/C++、MATLAB；数据集构建；边缘部署　
+  <strong>语言：</strong>英语（TOEFL 102 / IELTS 7.5）；中文母语</p>
 </div>
 </body>
 </html>
