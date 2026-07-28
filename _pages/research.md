@@ -27,6 +27,6 @@ Three threads
 
 **Multimodal generation & reasoning.** As equal first author of **CLEAR** (**ICML 2026 Oral**), I worked on mask-free, parameter-efficient video subtitle removal (0.77% trainable parameters, strong zero-shot cross-lingual transfer). In **ReasonBrain** (**ICML 2026**), we study hypothetical instruction-based image editing that requires physical/temporal/causal/story reasoning.
 
-**Embodied occlusion intelligence.** The first-author **OCC-MLLM** series (IVC / CVIU / JVCIR) develops multimodal LLM agents that reason about occluded objects with 3D-aware supervision, chain-of-thought guidance, and self-correction. Ongoing **PERCH** / **STARE** directions connect this to active and sustained observation on edge UAVs.
+**Embodied occlusion intelligence.** The first-author **OCC-MLLM** series (IVC / CVIU / JVCIR) develops multimodal LLM agents that reason about occluded objects with 3D-aware supervision, chain-of-thought guidance, and self-correction. Closing the loop on physical platforms, first-author **PERCH** and **STARE** (**submitted to AAAI 2027**) study viewpoint-conditioned aerial ObjectNav and spend-to-verify, risk-controlled commitment on edge UAVs — including real outdoor multirotor flights.
 
 Contact: [chaoyiwang@aliyun.com](mailto:chaoyiwang@aliyun.com) · [chaoyiwang@mail.sim.ac.cn](mailto:chaoyiwang@mail.sim.ac.cn) · [Google Scholar](https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=zh-CN) · [Projects & Demos](/projects/) · [CV PDF](/files/Chaoyi_Wang_CV.pdf)

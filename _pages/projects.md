@@ -14,16 +14,17 @@ redirect_from:
 Selected projects with papers, code, and visual demos. CLEAR animations are **click-to-load** from GitHub.
 
 <div class="notice--info" markdown="1">
-Start with [CLEAR](#clear) (ICML 2026 Oral, equal first author) and the [OCC-MLLM series](#occ-mllm) (first author). Narrative: [Research](/research/).
+Newest: [PERCH](#perch) & [STARE](#stare) (**submitted to AAAI 2027**, first author). Also [CLEAR](#clear) (ICML 2026 Oral) and [OCC-MLLM](#occ-mllm). Narrative: [Research](/research/).
 </div>
 
 | Project | Venue / Status | Role | One-line |
 |---|---|---|---|
+| [PERCH](#perch) | **Submitted to AAAI 2027** | First author | Aerial ObjectNav → usable viewpoints (V-SR/V-SPL) |
+| [STARE](#stare) | **Submitted to AAAI 2027** | First author | Spend-to-verify · risk-controlled UAV commitment |
 | [CLEAR](#clear) | **ICML 2026 Oral** | Equal first author | Mask-free removal · 0.77% params · +6.77dB PSNR |
 | [ReasonBrain](#reasonbrain) | **ICML 2026** | Author | Hypothetical instruction-based image editing |
 | [OCC-MLLM](#occ-mllm) | IVC / CVIU / JVCIR | First author | Occlusion MLLM reasoning · +11.14% decision score |
 | [Sensor foundations](#sensor) | Remote Sensing / Neurocomputing | First / co-author | Acoustic & low-resolution visual sensing |
-| [PERCH & STARE](#embodied) | Ongoing | Lead | Embodied edge-UAV perception & reasoning |
 
 <a id="clear"></a>
 CLEAR — Mask-Free Video Subtitle Removal
@@ -133,13 +134,54 @@ Early work on robust perception under noise and limited resources — the sensin
 - [Transformer-Based Low-Resolution Face Recognition](/publication/2022-transformer-lr-face) — *Neurocomputing*, 2022: on-/offline knowledge distillation for low-resolution recognition.
 
 <a id="embodied"></a>
-PERCH & STARE — Embodied UAV Directions
+<a id="perch"></a>
+PERCH — Perception–Evidence–Reinforcement CHain
 ======
-**Ongoing** · edge UAV testbeds
+**Submitted to AAAI 2027** (2026-07-28) · **First author** · edge multirotor deployment
 
-Building on occlusion-aware multimodal reasoning and robust sensing:
+Proximity success overestimates usable aerial navigation: an agent can stop *near* the target yet end behind a tree. **PERCH** keeps the SR/SPL metric family but replaces the proximity-only predicate with viewpoint-conditioned **V-SR / V-SPL**, then repairs the gap with a closed chain:
 
-- **PERCH** — actively acquiring better viewpoints / evidence under motion and compute constraints (closer sensing when passive observation is insufficient).
-- **STARE** — sustained multimodal observation and reasoning under partial observability, connecting OCC-MLLM-style occlusion understanding to longer-horizon sensing on edge UAVs.
+1. **Map to see** — Occupancy-Driven Viewpoint Affordance (OVA) scores which observation poses can actually see the target.
+2. **See to trust** — VLM-Verified Candidate Belief (VCB) gates commitment behind attribute-level verification.
+3. **Trust to stop** — Verifiable-Reward Viewpoint Policy (VRP) decides when the terminal pose is worth holding (GRPO on programmatic geometric rewards).
 
-These directions ask a common question: *how should an embodied agent decide what to sense next when the world is only partially observed?* Demos and write-ups will be added here as the projects mature.
+Across closed-loop AirSim environments and photorealistic replays, modules form a monotone ablation ladder; e.g. V-SPL rises from **0.675 → 0.803** on CityEnviron and **0.395 → 0.816** on TartanAir distractor-dense forests. On an edge multirotor, PERCH **perches and holds watch** over real outdoor targets.
+
+<div class="project-links">
+  <a class="btn btn--primary" href="/files/papers/PERCH.pdf">PDF</a>
+  <a class="btn btn--primary" href="/publication/2026-perch">Site entry</a>
+  <a class="btn btn--primary" href="/projects/#stare">Sister paper: STARE →</a>
+</div>
+
+<figure class="half">
+  <a href="/images/projects/perch/fig1.jpg"><img src="/images/projects/perch/fig1.jpg" alt="PERCH inference loop"></a>
+  <a href="/images/projects/perch/qualitative.jpg"><img src="/images/projects/perch/qualitative.jpg" alt="PERCH qualitative results"></a>
+</figure>
+<p class="demo-note">Left: PERCH inference loop (OVA → VCB → VRP). Right: qualitative / field results. Full manuscript: <a href="/files/papers/PERCH.pdf">PDF</a>.</p>
+
+<a id="stare"></a>
+STARE — Spend To Acquire Reliable Evidence
+======
+**Submitted to AAAI 2027** (2026-07-28) · **First author** · risk-controlled commitment on edge UAVs
+
+Instructed target selection asks a UAV to pick the correct instance under tight compute, time, and motion budgets—a premature wrong commitment can forfeit the mission. **STARE** treats reliability as a resource acquired by *spending*:
+
+1. **Verify by spending** — Cascaded Evidential Introspection (CEI): reliability probe + wealth accumulator → commit-or-defer.
+2. **Spend by learning** — Budget-Constrained Evidence Allocation (BEA): Lagrangian-PPO decides whether further evidence is worth its cost.
+3. **Learn with guarantees** — Distribution-Free Risk Certification (DRC): Learn-then-Test calibration of the dual-channel commit gate.
+
+Across six aerial datasets, four frozen depth backbones, and three target categories, STARE raises end-to-end success by up to **+0.52 absolute** over look-once commitment while keeping selective-error estimates below calibrated targets. The same agent commits correctly on **real outdoor flights** and abstains when evidence stays thin.
+
+<div class="project-links">
+  <a class="btn btn--primary" href="/files/papers/STARE.pdf">PDF</a>
+  <a class="btn btn--primary" href="/publication/2026-stare">Site entry</a>
+  <a class="btn btn--primary" href="/projects/#perch">Sister paper: PERCH →</a>
+</div>
+
+<figure class="half">
+  <a href="/images/projects/stare/fig1.jpg"><img src="/images/projects/stare/fig1.jpg" alt="STARE inference loop"></a>
+  <a href="/images/projects/stare/qualitative.jpg"><img src="/images/projects/stare/qualitative.jpg" alt="STARE qualitative results"></a>
+</figure>
+<p class="demo-note">Left: STARE spend-to-verify loop (CEI → DRC → BEA). Right: qualitative / field results. Full manuscript: <a href="/files/papers/STARE.pdf">PDF</a>.</p>
+
+**Shared question.** Both papers close the loop from partial observability to action on edge UAVs: *where to look / whom to trust / when to stop* (**PERCH**), and *what evidence to buy under a risk certificate* (**STARE**).
