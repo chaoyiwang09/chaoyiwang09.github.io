@@ -1,4 +1,4 @@
----
+﻿---
 layout: single
 title: "Projects"
 permalink: /projects/
@@ -14,13 +14,13 @@ redirect_from:
 Selected projects with papers, code, and visual demos. CLEAR animations are **click-to-load** from GitHub.
 
 <div class="notice--info" markdown="1">
-Newest: [PERCH](#perch) & [STARE](#stare) (**submitted to AAAI 2027**, first author). Also [CLEAR](#clear) (ICML 2026 Oral) and [OCC-MLLM](#occ-mllm). Narrative: [Research](/research/).
+Newest: [PERCH](#perch) & [STARE](#stare) (**submitted**, first author). Also [CLEAR](#clear) (ICML 2026 Oral) and [OCC-MLLM](#occ-mllm). Narrative: [Research](/research/).
 </div>
 
 | Project | Venue / Status | Role | One-line |
 |---|---|---|---|
-| [PERCH](#perch) | **Submitted to AAAI 2027** | First author | Aerial ObjectNav → usable viewpoints (V-SR/V-SPL) |
-| [STARE](#stare) | **Submitted to AAAI 2027** | First author | Spend-to-verify · risk-controlled UAV commitment |
+| [PERCH](#perch) | **Submitted** | First author | Aerial ObjectNav → usable viewpoints (V-SR/V-SPL) |
+| [STARE](#stare) | **Submitted** | First author | Spend-to-verify · risk-controlled UAV commitment |
 | [CLEAR](#clear) | **ICML 2026 Oral** | Equal first author | Mask-free removal · 0.77% params · +6.77dB PSNR |
 | [ReasonBrain](#reasonbrain) | **ICML 2026** | Author | Hypothetical instruction-based image editing |
 | [OCC-MLLM](#occ-mllm) | IVC / CVIU / JVCIR | First author | Occlusion MLLM reasoning · +11.14% decision score |
@@ -137,7 +137,7 @@ Early work on robust perception under noise and limited resources — the sensin
 <a id="perch"></a>
 PERCH — Perception–Evidence–Reinforcement CHain
 ======
-**Submitted to AAAI 2027** (2026-07-28) · **First author** · edge multirotor deployment
+**Submitted** (2026-07-28) · **First author** · edge multirotor deployment
 
 Proximity success overestimates usable aerial navigation: an agent can stop *near* the target yet end behind a tree. **PERCH** keeps the SR/SPL metric family but replaces the proximity-only predicate with viewpoint-conditioned **V-SR / V-SPL**, then repairs the gap with a closed chain:
 
@@ -162,7 +162,7 @@ Across closed-loop AirSim environments and photorealistic replays, modules form 
 <a id="stare"></a>
 STARE — Spend To Acquire Reliable Evidence
 ======
-**Submitted to AAAI 2027** (2026-07-28) · **First author** · risk-controlled commitment on edge UAVs
+**Submitted** (2026-07-28) · **First author** · risk-controlled commitment on edge UAVs
 
 Instructed target selection asks a UAV to pick the correct instance under tight compute, time, and motion budgets—a premature wrong commitment can forfeit the mission. **STARE** treats reliability as a resource acquired by *spending*:
 

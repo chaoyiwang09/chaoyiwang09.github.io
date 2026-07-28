@@ -1,4 +1,4 @@
----
+﻿---
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -37,7 +37,7 @@ Research Interests
 
 Selected Highlights
 ======
-* **AAAI 2027 (submitted)** — PERCH & STARE (*first author*): viewpoint-conditioned aerial ObjectNav and spend-to-verify risk-controlled commitment on edge UAVs.
+* **Submitted** — PERCH & STARE (*first author*): viewpoint-conditioned aerial ObjectNav and spend-to-verify risk-controlled commitment on edge UAVs.
 * **ICML 2026 Oral & Spotlight** — CLEAR (*equal contribution*): mask-free video subtitle removal; 0.77% trainable parameters.
 * **ICML 2026** — Reasoning to Edit / ReasonBrain: hypothetical instruction-based image editing.
 * **First-author OCC-MLLM series** — occlusion reasoning with multimodal LLMs (IVC / CVIU / JVCIR).
