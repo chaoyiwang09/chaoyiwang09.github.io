@@ -391,3 +391,138 @@ html[data-theme="dark"] .project-index__domain,
 html[data-theme="dark"] .interest-tags li {
   background: var(--academic-accent-soft);
 }
+
+/* CV timeline / skills */
+.cv-timeline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cv-timeline li {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.25rem 1.25rem;
+  margin: 0 0 1rem;
+  padding: 0 0 1rem;
+  border-bottom: 1px solid var(--academic-rule);
+}
+
+.cv-timeline li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+@media (min-width: 560px) {
+  .cv-timeline li {
+    grid-template-columns: 8.5rem 1fr;
+  }
+}
+
+.cv-timeline__when {
+  font-size: 0.85rem;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  color: var(--academic-accent);
+  padding-top: 0.1rem;
+}
+
+.cv-timeline__body strong {
+  display: block;
+  font-size: 1rem;
+  color: var(--academic-ink);
+}
+
+.cv-timeline__place {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.92rem;
+  color: var(--academic-muted);
+}
+
+.cv-timeline__body p {
+  margin: 0.4rem 0 0;
+  font-size: 0.92rem;
+  color: var(--academic-muted);
+  line-height: 1.55;
+}
+
+.cv-skill-rows {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cv-skill-rows li {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.2rem 1rem;
+  margin: 0;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--academic-rule);
+}
+
+.cv-skill-rows li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.cv-skill-rows li:first-child {
+  padding-top: 0;
+}
+
+@media (min-width: 520px) {
+  .cv-skill-rows li {
+    grid-template-columns: 5.5rem 1fr;
+    align-items: baseline;
+  }
+}
+
+.cv-skill-rows__label {
+  font-size: 0.8rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--academic-accent);
+}
+
+.cv-skill-rows__value {
+  font-size: 0.95rem;
+  color: var(--academic-ink);
+}
+
+.cv-pub-heading {
+  margin: 1.35rem 0 0.55rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  font-size: 0.8rem !important;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--academic-accent);
+}
+
+.cv-pub-heading:first-of-type {
+  margin-top: 0.75rem !important;
+}
+
+.cv-pub-list {
+  margin: 0 0 0.5rem;
+  padding-left: 1.15rem;
+}
+
+.cv-pub-list .list__item {
+  border-bottom: none;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+.cv-pub-list .archive__item-title {
+  font-size: 0.98rem !important;
+}
+
+.content-block .demo-note {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
