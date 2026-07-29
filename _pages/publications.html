@@ -17,14 +17,24 @@ author_profile: true
   <a class="btn btn--primary" href="https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=en">Scholar</a>
 </div>
 
-<h2>Featured</h2>
-<ul>
-  <li><strong>PERCH</strong> &amp; <strong>STARE</strong> (first author) — embodied edge-UAV · <a href="/publication/2026-perch">PERCH</a> · <a href="/publication/2026-stare">STARE</a> · <a href="/projects/#perch">projects</a></li>
-  <li><strong>CLEAR</strong> — ICML 2026 <strong>Oral &amp; Spotlight</strong> (*equal contribution*) · <a href="/publication/2026-clear">entry</a> · <a href="/projects/#clear">demos</a> · <a href="https://arxiv.org/abs/2603.21901">arXiv</a></li>
-  <li><strong>Reasoning to Edit</strong> — ICML 2026 · <a href="/publication/2025-reasoning-to-edit">entry</a> · <a href="/projects/#reasonbrain">demos</a> · <a href="https://arxiv.org/abs/2507.01908">arXiv</a></li>
-  <li><strong>OCC-MLLM series</strong> (first author) — IVC / CVIU / JVCIR · <a href="/projects/#occ-mllm">overview</a></li>
-  <li><strong>Vehicle Sound Detection</strong> (first author) — <i>Remote Sensing</i>, 2022 · <a href="/publication/2022-vehicle-sound-detection">entry</a></li>
-</ul>
+<nav class="pub-nav" aria-label="Publication categories">
+  <a href="#featured">Featured</a>
+  <a href="#submitted">Submitted</a>
+  <a href="#conferences">Conferences</a>
+  <a href="#manuscripts">Journals</a>
+  <a href="#preprints">Preprints</a>
+</nav>
+
+<div id="featured" class="content-block content-block--accent pub-featured">
+  <div class="content-block__title">Featured</div>
+  <ul>
+    <li><strong>PERCH</strong> &amp; <strong>STARE</strong> (first author) — embodied edge-UAV · <a href="/publication/2026-perch">PERCH</a> · <a href="/publication/2026-stare">STARE</a> · <a href="/projects/#perch">projects</a></li>
+    <li><strong>CLEAR</strong> — ICML 2026 <strong>Oral &amp; Spotlight</strong> (*equal contribution*) · <a href="/publication/2026-clear">entry</a> · <a href="/projects/#clear">demos</a> · <a href="https://arxiv.org/abs/2603.21901">arXiv</a></li>
+    <li><strong>Reasoning to Edit</strong> — ICML 2026 · <a href="/publication/2025-reasoning-to-edit">entry</a> · <a href="/projects/#reasonbrain">demos</a> · <a href="https://arxiv.org/abs/2507.01908">arXiv</a></li>
+    <li><strong>OCC-MLLM series</strong> (first author) — IVC / CVIU / JVCIR · <a href="/projects/#occ-mllm">overview</a></li>
+    <li><strong>Vehicle Sound Detection</strong> (first author) — <i>Remote Sensing</i>, 2022 · <a href="/publication/2022-vehicle-sound-detection">entry</a></li>
+  </ul>
+</div>
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
@@ -35,11 +45,15 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <div id="{{ category[0] }}" class="pub-category">
+        <h2>{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
+    {% if title_shown %}
+        </div>
+    {% endif %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}

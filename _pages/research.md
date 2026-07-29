@@ -9,24 +9,61 @@ redirect_from:
 
 A concise research narrative. Demos: [Projects](/projects/). Papers: [Publications](/publications/).
 
-Agenda
-======
+<div class="content-block content-block--accent" markdown="1">
+<div class="content-block__title">Agenda</div>
+
 I aim to build **embodied multimodal agents** that remain reliable when the world is only partially observed. The path is cumulative:
 
-1. **Make sensing trustworthy** under noise, low resolution, and limited compute.
-2. **Make multimodal models reason and generate** beyond closed-set recognition — especially under occlusion and implicit instructions.
-3. **Close the loop on physical platforms** (edge UAVs), so agents can decide *what to sense next* and act.
+<ol class="agenda-steps">
+  <li><strong>Make sensing trustworthy</strong> under noise, low resolution, and limited compute.</li>
+  <li><strong>Make multimodal models reason and generate</strong> beyond closed-set recognition — especially under occlusion and implicit instructions.</li>
+  <li><strong>Close the loop on physical platforms</strong> (edge UAVs), so agents can decide <em>what to sense next</em> and act.</li>
+</ol>
+</div>
 
-Why this matters
-======
+<div class="content-block" markdown="1">
+<div class="content-block__title">Why this matters</div>
+
 Many strong vision–language models still fail when evidence is incomplete. Embodied settings make this failure mode unavoidable: motion, viewpoint limits, occlusion, and onboard compute constraints are the default, not the edge case. My work treats partial observability as a first-class research problem rather than a robustness afterthought.
+</div>
 
-Three threads
-======
-**Sensor foundations.** Early first-author and collaborative work on acoustic vehicle detection, multichannel sensing, radar tracking, infrared–visible fusion, and low-resolution recognition taught me how to design perception stacks that survive real-world noise.
+<div class="content-block__title content-block__title--standalone">Three threads</div>
 
-**Multimodal generation & reasoning.** As equal first author of **CLEAR** (**ICML 2026 Oral**), I worked on mask-free, parameter-efficient video subtitle removal (0.77% trainable parameters, strong zero-shot cross-lingual transfer). In **ReasonBrain** (**ICML 2026**), we study hypothetical instruction-based image editing that requires physical/temporal/causal/story reasoning.
+<div class="thread-grid">
+  <article class="thread-card">
+    <span class="thread-card__step">Thread 01</span>
+    <h3 class="thread-card__title">Sensor foundations</h3>
+    <p>Early first-author and collaborative work on acoustic vehicle detection, multichannel sensing, radar tracking, infrared–visible fusion, and low-resolution recognition — perception stacks that survive real-world noise.</p>
+    <div class="thread-card__links">
+      <a href="/projects/#sensor">Projects →</a>
+      ·
+      <a href="/publication/2022-vehicle-sound-detection">Remote Sensing 2022</a>
+    </div>
+  </article>
 
-**Embodied occlusion intelligence.** The first-author **OCC-MLLM** series (IVC / CVIU / JVCIR) develops multimodal LLM agents that reason about occluded objects with 3D-aware supervision, chain-of-thought guidance, and self-correction. Closing the loop on physical platforms, first-author **PERCH** and **STARE** (**submitted**) study viewpoint-conditioned aerial ObjectNav and spend-to-verify, risk-controlled commitment on edge UAVs — including real outdoor multirotor flights.
+  <article class="thread-card">
+    <span class="thread-card__step">Thread 02</span>
+    <h3 class="thread-card__title">Multimodal generation &amp; reasoning</h3>
+    <p>Equal first author of <strong>CLEAR</strong> (ICML 2026 Oral): mask-free, parameter-efficient video subtitle removal. In <strong>ReasonBrain</strong> (ICML 2026), hypothetical instruction-based image editing with physical / temporal / causal / story reasoning.</p>
+    <div class="thread-card__links">
+      <a href="/projects/#clear">CLEAR →</a>
+      ·
+      <a href="/projects/#reasonbrain">ReasonBrain →</a>
+    </div>
+  </article>
 
-Contact: [chaoyiwang@aliyun.com](mailto:chaoyiwang@aliyun.com) · [chaoyiwang@mail.sim.ac.cn](mailto:chaoyiwang@mail.sim.ac.cn) · [Google Scholar](https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=zh-CN) · [Projects & Demos](/projects/) · [CV PDF](/files/Chaoyi_Wang_CV.pdf)
+  <article class="thread-card">
+    <span class="thread-card__step">Thread 03</span>
+    <h3 class="thread-card__title">Embodied occlusion intelligence</h3>
+    <p>First-author <strong>OCC-MLLM</strong> series (IVC / CVIU / JVCIR) for occluded-object reasoning. Closing the loop: <strong>PERCH</strong> &amp; <strong>STARE</strong> (submitted) — viewpoint ObjectNav and spend-to-verify commitment on edge UAVs, including outdoor flights.</p>
+    <div class="thread-card__links">
+      <a href="/projects/#perch">PERCH →</a>
+      ·
+      <a href="/projects/#stare">STARE →</a>
+      ·
+      <a href="/projects/#occ-mllm">OCC-MLLM →</a>
+    </div>
+  </article>
+</div>
+
+<p class="research-contact">Contact: <a href="mailto:chaoyiwang@aliyun.com">chaoyiwang@aliyun.com</a> · <a href="mailto:chaoyiwang@mail.sim.ac.cn">chaoyiwang@mail.sim.ac.cn</a> · <a href="https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=zh-CN">Google Scholar</a> · <a href="/projects/">Projects &amp; Demos</a> · <a href="/files/Chaoyi_Wang_CV.pdf">CV PDF</a></p>
