@@ -20,28 +20,19 @@ Newest: [PERCH](#perch) & [STARE](#stare) (**submitted**, first author). Also [C
     <div class="project-index__domain">Embodied AI</div>
     <ul class="project-index__items">
       <li>
-        <a class="project-index__thumb" href="#perch"><img src="/images/projects/perch/fig1.jpg" alt="" loading="lazy"></a>
-        <div class="project-index__text">
-          <span class="project-index__name"><a href="#perch">PERCH</a></span>
-          <span class="project-index__venue">Submitted</span>
-          <span class="project-index__blurb">Aerial ObjectNav → usable viewpoints (V-SR / V-SPL)</span>
-        </div>
+        <span class="project-index__name"><a href="#perch">PERCH</a></span>
+        <span class="project-index__venue">Submitted</span>
+        <span class="project-index__blurb">Aerial ObjectNav → usable viewpoints (V-SR / V-SPL)</span>
       </li>
       <li>
-        <a class="project-index__thumb" href="#stare"><img src="/images/projects/stare/fig1.jpg" alt="" loading="lazy"></a>
-        <div class="project-index__text">
-          <span class="project-index__name"><a href="#stare">STARE</a></span>
-          <span class="project-index__venue">Submitted</span>
-          <span class="project-index__blurb">Spend-to-verify · risk-controlled UAV commitment</span>
-        </div>
+        <span class="project-index__name"><a href="#stare">STARE</a></span>
+        <span class="project-index__venue">Submitted</span>
+        <span class="project-index__blurb">Spend-to-verify · risk-controlled UAV commitment</span>
       </li>
       <li>
-        <a class="project-index__thumb" href="#occ-mllm"><img src="/images/projects/occ-mllm/visualresults.jpg" alt="" loading="lazy"></a>
-        <div class="project-index__text">
-          <span class="project-index__name"><a href="#occ-mllm">OCC-MLLM</a></span>
-          <span class="project-index__venue">IVC / CVIU / JVCIR</span>
-          <span class="project-index__blurb">Occlusion MLLM reasoning · +11.14% decision score</span>
-        </div>
+        <span class="project-index__name"><a href="#occ-mllm">OCC-MLLM</a></span>
+        <span class="project-index__venue">IVC / CVIU / JVCIR</span>
+        <span class="project-index__blurb">Occlusion MLLM reasoning · +11.14% decision score</span>
       </li>
     </ul>
   </div>
@@ -49,20 +40,14 @@ Newest: [PERCH](#perch) & [STARE](#stare) (**submitted**, first author). Also [C
     <div class="project-index__domain">Generative &amp; Reasoning</div>
     <ul class="project-index__items">
       <li>
-        <a class="project-index__thumb" href="#clear"><img src="/images/projects/clear/preview_english1.jpg" alt="" loading="lazy"></a>
-        <div class="project-index__text">
-          <span class="project-index__name"><a href="#clear">CLEAR</a></span>
-          <span class="project-index__venue">ICML 2026 Oral</span>
-          <span class="project-index__blurb">Mask-free removal · 0.77% params · +6.77 dB PSNR</span>
-        </div>
+        <span class="project-index__name"><a href="#clear">CLEAR</a></span>
+        <span class="project-index__venue">ICML 2026 Oral</span>
+        <span class="project-index__blurb">Mask-free removal · 0.77% params · +6.77 dB PSNR</span>
       </li>
       <li>
-        <a class="project-index__thumb" href="#reasonbrain"><img src="/images/projects/reasonbrain/cover.jpg" alt="" loading="lazy"></a>
-        <div class="project-index__text">
-          <span class="project-index__name"><a href="#reasonbrain">ReasonBrain</a></span>
-          <span class="project-index__venue">ICML 2026</span>
-          <span class="project-index__blurb">Hypothetical instruction-based image editing</span>
-        </div>
+        <span class="project-index__name"><a href="#reasonbrain">ReasonBrain</a></span>
+        <span class="project-index__venue">ICML 2026</span>
+        <span class="project-index__blurb">Hypothetical instruction-based image editing</span>
       </li>
     </ul>
   </div>
@@ -70,12 +55,9 @@ Newest: [PERCH](#perch) & [STARE](#stare) (**submitted**, first author). Also [C
     <div class="project-index__domain">Sensor Foundations</div>
     <ul class="project-index__items">
       <li>
-        <a class="project-index__thumb project-index__thumb--placeholder" href="#sensor" aria-hidden="true"><span>SF</span></a>
-        <div class="project-index__text">
-          <span class="project-index__name"><a href="#sensor">Sensor perception</a></span>
-          <span class="project-index__venue">Remote Sensing / Neurocomputing</span>
-          <span class="project-index__blurb">Acoustic &amp; low-resolution visual sensing</span>
-        </div>
+        <span class="project-index__name"><a href="#sensor">Sensor perception</a></span>
+        <span class="project-index__venue">Remote Sensing / Neurocomputing</span>
+        <span class="project-index__blurb">Acoustic &amp; low-resolution visual sensing</span>
       </li>
     </ul>
   </div>
