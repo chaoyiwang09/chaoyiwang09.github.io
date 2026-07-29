@@ -2,24 +2,36 @@
 
 <!-- start custom head snippets -->
 
-<!-- Academic body font: Source Serif 4 for reading + Source Sans 3 for UI -->
+<!-- Typography: Fraunces (display) + Source Serif 4 (reading) + Source Sans 3 (UI) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:wght@400;550;650&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:wght@400;550;650&display=swap" rel="stylesheet">
 <style>
   :root {
     --global-font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     --global-font-family-serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --global-font-family-display: "Fraunces", "Source Serif 4", Georgia, serif;
   }
   body, .sidebar, .masthead, .greedy-nav, .btn {
     font-family: var(--global-font-family);
   }
   .page__content p,
   .page__content li,
-  .page__content dd {
+  .page__content dd,
+  .archive__item-excerpt,
+  .pub-citation {
     font-family: var(--global-font-family-serif);
   }
   .page__title,
+  .content-block__title,
+  .project-section__title,
+  .series-card__title,
+  .thread-card__title,
+  .research-path__label,
+  .author__name {
+    font-family: var(--global-font-family-display);
+    font-optical-sizing: auto;
+  }
   .page__content h2,
   .page__content h3,
   .archive__item-title {

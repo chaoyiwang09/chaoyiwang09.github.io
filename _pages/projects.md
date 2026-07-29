@@ -11,28 +11,37 @@ redirect_from:
 
 Selected projects with papers, code, and visual demos. CLEAR animations are **click-to-load** from GitHub.
 
-<div class="notice--info" markdown="1">
+<div class="notice--info reveal-on-scroll" markdown="1">
 Newest: [PERCH](#perch) & [STARE](#stare) (**submitted**, first author). Also [CLEAR](#clear) (ICML 2026 Oral) and [OCC-MLLM](#occ-mllm). Narrative: [Research](/research/).
 </div>
 
-<nav class="project-index" aria-label="Projects by research area">
+<nav class="project-index reveal-on-scroll" aria-label="Projects by research area">
   <div class="project-index__row">
     <div class="project-index__domain">Embodied AI</div>
     <ul class="project-index__items">
       <li>
-        <span class="project-index__name"><a href="#perch">PERCH</a></span>
-        <span class="project-index__venue">Submitted</span>
-        <span class="project-index__blurb">Aerial ObjectNav → usable viewpoints (V-SR / V-SPL)</span>
+        <a class="project-index__thumb" href="#perch"><img src="/images/projects/perch/fig1.jpg" alt="" loading="lazy"></a>
+        <div class="project-index__text">
+          <span class="project-index__name"><a href="#perch">PERCH</a></span>
+          <span class="project-index__venue">Submitted</span>
+          <span class="project-index__blurb">Aerial ObjectNav → usable viewpoints (V-SR / V-SPL)</span>
+        </div>
       </li>
       <li>
-        <span class="project-index__name"><a href="#stare">STARE</a></span>
-        <span class="project-index__venue">Submitted</span>
-        <span class="project-index__blurb">Spend-to-verify · risk-controlled UAV commitment</span>
+        <a class="project-index__thumb" href="#stare"><img src="/images/projects/stare/fig1.jpg" alt="" loading="lazy"></a>
+        <div class="project-index__text">
+          <span class="project-index__name"><a href="#stare">STARE</a></span>
+          <span class="project-index__venue">Submitted</span>
+          <span class="project-index__blurb">Spend-to-verify · risk-controlled UAV commitment</span>
+        </div>
       </li>
       <li>
-        <span class="project-index__name"><a href="#occ-mllm">OCC-MLLM</a></span>
-        <span class="project-index__venue">IVC / CVIU / JVCIR</span>
-        <span class="project-index__blurb">Occlusion MLLM reasoning · +11.14% decision score</span>
+        <a class="project-index__thumb" href="#occ-mllm"><img src="/images/projects/occ-mllm/visualresults.jpg" alt="" loading="lazy"></a>
+        <div class="project-index__text">
+          <span class="project-index__name"><a href="#occ-mllm">OCC-MLLM</a></span>
+          <span class="project-index__venue">IVC / CVIU / JVCIR</span>
+          <span class="project-index__blurb">Occlusion MLLM reasoning · +11.14% decision score</span>
+        </div>
       </li>
     </ul>
   </div>
@@ -40,14 +49,20 @@ Newest: [PERCH](#perch) & [STARE](#stare) (**submitted**, first author). Also [C
     <div class="project-index__domain">Generative &amp; Reasoning</div>
     <ul class="project-index__items">
       <li>
-        <span class="project-index__name"><a href="#clear">CLEAR</a></span>
-        <span class="project-index__venue">ICML 2026 Oral</span>
-        <span class="project-index__blurb">Mask-free removal · 0.77% params · +6.77 dB PSNR</span>
+        <a class="project-index__thumb" href="#clear"><img src="/images/projects/clear/preview_english1.jpg" alt="" loading="lazy"></a>
+        <div class="project-index__text">
+          <span class="project-index__name"><a href="#clear">CLEAR</a></span>
+          <span class="project-index__venue">ICML 2026 Oral</span>
+          <span class="project-index__blurb">Mask-free removal · 0.77% params · +6.77 dB PSNR</span>
+        </div>
       </li>
       <li>
-        <span class="project-index__name"><a href="#reasonbrain">ReasonBrain</a></span>
-        <span class="project-index__venue">ICML 2026</span>
-        <span class="project-index__blurb">Hypothetical instruction-based image editing</span>
+        <a class="project-index__thumb" href="#reasonbrain"><img src="/images/projects/reasonbrain/cover.jpg" alt="" loading="lazy"></a>
+        <div class="project-index__text">
+          <span class="project-index__name"><a href="#reasonbrain">ReasonBrain</a></span>
+          <span class="project-index__venue">ICML 2026</span>
+          <span class="project-index__blurb">Hypothetical instruction-based image editing</span>
+        </div>
       </li>
     </ul>
   </div>
@@ -55,9 +70,12 @@ Newest: [PERCH](#perch) & [STARE](#stare) (**submitted**, first author). Also [C
     <div class="project-index__domain">Sensor Foundations</div>
     <ul class="project-index__items">
       <li>
-        <span class="project-index__name"><a href="#sensor">Sensor perception</a></span>
-        <span class="project-index__venue">Remote Sensing / Neurocomputing</span>
-        <span class="project-index__blurb">Acoustic &amp; low-resolution visual sensing</span>
+        <a class="project-index__thumb project-index__thumb--placeholder" href="#sensor" aria-hidden="true"><span>SF</span></a>
+        <div class="project-index__text">
+          <span class="project-index__name"><a href="#sensor">Sensor perception</a></span>
+          <span class="project-index__venue">Remote Sensing / Neurocomputing</span>
+          <span class="project-index__blurb">Acoustic &amp; low-resolution visual sensing</span>
+        </div>
       </li>
     </ul>
   </div>
@@ -67,7 +85,14 @@ Newest: [PERCH](#perch) & [STARE](#stare) (**submitted**, first author). Also [C
   <h2>Embodied AI</h2>
 </div>
 
-<div class="project-section" markdown="1" id="perch">
+<div class="series-banner reveal-on-scroll">
+  <div class="series-banner__label">Series</div>
+  <div class="series-banner__body">
+    <strong>PERCH &amp; STARE</strong> — a first-author embodied UAV pair (both submitted): <em>where to look / whom to trust / when to stop</em> (PERCH), and <em>what evidence to buy under a risk certificate</em> (STARE).
+  </div>
+</div>
+
+<div class="project-section reveal-on-scroll" markdown="1" id="perch">
 <a id="embodied"></a>
 
 <h2 class="project-section__title">PERCH — Perception–Evidence–Reinforcement CHain</h2>
@@ -95,7 +120,7 @@ Across closed-loop AirSim environments and photorealistic replays, modules form 
 <p class="demo-note">Left: PERCH inference loop (OVA → VCB → VRP). Right: qualitative / field results. Full manuscript: <a href="/files/papers/PERCH.pdf">PDF</a>.</p>
 </div>
 
-<div class="project-section" markdown="1" id="stare">
+<div class="project-section reveal-on-scroll" markdown="1" id="stare">
 
 <h2 class="project-section__title">STARE — Spend To Acquire Reliable Evidence</h2>
 
@@ -124,7 +149,12 @@ Across six aerial datasets, four frozen depth backbones, and three target catego
 **Shared question.** Both papers close the loop from partial observability to action on edge UAVs: *where to look / whom to trust / when to stop* (**PERCH**), and *what evidence to buy under a risk certificate* (**STARE**).
 </div>
 
-<div class="project-section" markdown="1" id="occ-mllm">
+<div class="project-section reveal-on-scroll" markdown="1" id="occ-mllm">
+
+<div class="series-banner series-banner--inner">
+  <div class="series-banner__label">Series</div>
+  <div class="series-banner__body">First-author OCC-MLLM line: occlusion as a first-class multimodal reasoning problem across IVC / CVIU / JVCIR.</div>
+</div>
 
 <h2 class="project-section__title">OCC-MLLM Series — Occlusion Reasoning with MLLMs</h2>
 
@@ -151,7 +181,7 @@ The **OCC-MLLM** series studies how multimodal LLMs infer properties of **occlud
   <h2>Generative &amp; Reasoning</h2>
 </div>
 
-<div class="project-section" markdown="1" id="clear">
+<div class="project-section reveal-on-scroll" markdown="1" id="clear">
 
 <h2 class="project-section__title">CLEAR — Mask-Free Video Subtitle Removal</h2>
 
@@ -211,7 +241,7 @@ The **OCC-MLLM** series studies how multimodal LLMs infer properties of **occlud
 <p class="demo-note">Demos are served on demand from <a href="https://github.com/silent-commit/CLEAR">silent-commit/CLEAR</a> (files are large). Full-resolution MP4s live in the repository.</p>
 </div>
 
-<div class="project-section" markdown="1" id="reasonbrain">
+<div class="project-section reveal-on-scroll" markdown="1" id="reasonbrain">
 
 <h2 class="project-section__title">ReasonBrain — Reasoning to Edit</h2>
 
@@ -235,7 +265,7 @@ The **OCC-MLLM** series studies how multimodal LLMs infer properties of **occlud
   <h2>Sensor Foundations</h2>
 </div>
 
-<div class="project-section" markdown="1" id="sensor">
+<div class="project-section reveal-on-scroll" markdown="1" id="sensor">
 
 <h2 class="project-section__title">Sensor Perception Foundations</h2>
 

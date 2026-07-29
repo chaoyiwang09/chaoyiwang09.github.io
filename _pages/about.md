@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="home-intro content-block content-block--accent" markdown="1">
+<div class="home-intro content-block content-block--accent reveal-on-scroll" markdown="1">
 
 I am a Ph.D. candidate at the **University of Chinese Academy of Sciences (UCAS)**, conducting research at the **Shanghai Institute of Microsystem and Information Technology (SIMIT, CAS)**. I received my **M.S.** from **Johns Hopkins University** and my **B.S.** from **Shanghai Jiao Tong University**.
 
@@ -15,7 +15,7 @@ My research focuses on **embodied multimodal intelligence**: building agents tha
 
 </div>
 
-<div class="project-links">
+<div class="project-links reveal-on-scroll">
   <a class="btn btn--primary" href="/projects/">Projects</a>
   <a class="btn btn--primary" href="/research/">Research</a>
   <a class="btn btn--primary" href="/publications/">Publications</a>
@@ -23,53 +23,131 @@ My research focuses on **embodied multimodal intelligence**: building agents tha
   <a class="btn btn--primary" href="/files/Chaoyi_Wang_CV.pdf">CV (PDF)</a>
 </div>
 
-<div class="content-block" markdown="1">
-<div class="content-block__title">News</div>
-
-- **[Jul 28, 2026]** Submitted **[PERCH](/projects/#perch)** and **[STARE](/projects/#stare)** (*first author*) — embodied edge-UAV viewpoint navigation & risk-controlled commitment. [PDFs →](/projects/#perch)
-- **[May 2026]** [CLEAR](https://arxiv.org/abs/2603.21901) accepted as an **Oral** (and Spotlight) at **ICML 2026** (*equal contribution*). [Demos →](/projects/#clear)
-- **[May 2026]** [Reasoning to Edit](https://arxiv.org/abs/2507.01908) accepted at **ICML 2026**. [Demos →](/projects/#reasonbrain)
-- **[2025–2026]** OCC-MLLM series (first author) in *IVC*, *CVIU*, and *JVCIR*. [Overview →](/projects/#occ-mllm)
+<div class="content-block reveal-on-scroll">
+  <div class="content-block__title">Research path</div>
+  <ol class="research-path" aria-label="Research progression">
+    <li class="research-path__step">
+      <span class="research-path__num">01</span>
+      <strong class="research-path__label">Sense</strong>
+      <span class="research-path__desc">Robust acoustic &amp; visual perception under noise and limited compute</span>
+      <a class="research-path__link" href="/projects/#sensor">Sensor foundations →</a>
+    </li>
+    <li class="research-path__arrow" aria-hidden="true"></li>
+    <li class="research-path__step">
+      <span class="research-path__num">02</span>
+      <strong class="research-path__label">Reason &amp; Generate</strong>
+      <span class="research-path__desc">Multimodal generation and visual reasoning under incomplete evidence</span>
+      <a class="research-path__link" href="/projects/#clear">CLEAR / ReasonBrain →</a>
+    </li>
+    <li class="research-path__arrow" aria-hidden="true"></li>
+    <li class="research-path__step">
+      <span class="research-path__num">03</span>
+      <strong class="research-path__label">Embody</strong>
+      <span class="research-path__desc">Close the loop on edge UAVs — decide what to sense and when to act</span>
+      <a class="research-path__link" href="/projects/#perch">PERCH / STARE →</a>
+    </li>
+  </ol>
 </div>
 
-<div class="content-block" markdown="1">
-<div class="content-block__title">Selected Highlights</div>
-
-- **Submitted** — first-author embodied UAV pair: [PERCH](/projects/#perch) (viewpoint ObjectNav) · [STARE](/projects/#stare) (spend-to-verify commitment).
-- **ICML 2026 Oral** — mask-free video subtitle removal with **0.77%** trainable parameters ([CLEAR](/projects/#clear), *equal first author*).
-- **ICML 2026** — hypothetical instruction-based image editing ([ReasonBrain](/projects/#reasonbrain)).
-- **First-author OCC-MLLM series** — occlusion reasoning with multimodal LLMs ([OCC-MLLM](/projects/#occ-mllm)).
-
-<figure class="half">
-  <a href="/projects/#perch"><img src="/images/projects/perch/fig1.jpg" alt="PERCH inference loop"></a>
-  <a href="/projects/#stare"><img src="/images/projects/stare/fig1.jpg" alt="STARE inference loop"></a>
-</figure>
-<p class="demo-note">Left: PERCH (viewpoint ObjectNav). Right: STARE (spend-to-verify). Both <strong>submitted</strong>. See <a href="/projects/">Projects</a>.</p>
+<div class="content-block reveal-on-scroll">
+  <div class="content-block__title">News</div>
+  <ul class="block-list">
+    <li><strong>[Jul 28, 2026]</strong> Submitted <a href="/projects/#perch">PERCH</a> and <a href="/projects/#stare">STARE</a> (<em>first author</em>) — embodied edge-UAV viewpoint navigation &amp; risk-controlled commitment. <a href="/projects/#perch">PDFs →</a></li>
+    <li><strong>[May 2026]</strong> <a href="https://arxiv.org/abs/2603.21901">CLEAR</a> accepted as an <strong>Oral</strong> (and Spotlight) at <strong>ICML 2026</strong> (<em>equal contribution</em>). <a href="/projects/#clear">Demos →</a></li>
+    <li><strong>[May 2026]</strong> <a href="https://arxiv.org/abs/2507.01908">Reasoning to Edit</a> accepted at <strong>ICML 2026</strong>. <a href="/projects/#reasonbrain">Demos →</a></li>
+    <li><strong>[2025–2026]</strong> OCC-MLLM series (first author) in <em>IVC</em>, <em>CVIU</em>, and <em>JVCIR</em>. <a href="/projects/#occ-mllm">Overview →</a></li>
+  </ul>
 </div>
 
-<div class="content-block" markdown="1">
-<div class="content-block__title">Research</div>
+<div class="content-block reveal-on-scroll">
+  <div class="content-block__title">Selected Highlights</div>
 
-My work progresses from **sensor perception**, to **multimodal generation and reasoning**, and toward **embodied intelligence in real-world environments**.
+  <div class="series-grid">
+    <article class="series-card">
+      <div class="series-card__media">
+        <a href="/projects/#perch"><img src="/images/projects/perch/fig1.jpg" alt="PERCH overview" loading="lazy"></a>
+        <a href="/projects/#stare"><img src="/images/projects/stare/fig1.jpg" alt="STARE overview" loading="lazy"></a>
+      </div>
+      <div class="series-card__body">
+        <div class="series-card__meta">
+          <span class="pub-badge pub-badge--submitted">Submitted</span>
+          <span class="pub-badge pub-badge--first">First author</span>
+        </div>
+        <h3 class="series-card__title">Embodied UAV pair · PERCH &amp; STARE</h3>
+        <p>Viewpoint-conditioned aerial ObjectNav and spend-to-verify, risk-controlled commitment — closed on edge multirotors with outdoor flights.</p>
+        <div class="series-card__links">
+          <a href="/projects/#perch">PERCH</a>
+          <a href="/projects/#stare">STARE</a>
+          <a href="/publication/2026-perch">Papers</a>
+        </div>
+      </div>
+    </article>
 
-- **Sensor perception foundations.** Robust acoustic and visual sensing under noise and resource constraints. *Papers:* [Vehicle Sound Detection](/publication/2022-vehicle-sound-detection) (*Remote Sensing*, 2022; first author) · [Low-Resolution Face Recognition](/publication/2022-transformer-lr-face) (*Neurocomputing*, 2022).
-- **Multimodal generation and reasoning.** Controllable video/image generation and visual reasoning. *Papers:* [CLEAR](/publication/2026-clear) (**ICML 2026 Oral**, *equal contribution*) · [Reasoning to Edit](/publication/2025-reasoning-to-edit) (**ICML 2026**).
-- **Embodied intelligence and real-world deployment.** Occlusion-aware multimodal reasoning under motion, limited compute, and partial observability — closed on edge UAVs. *Papers:* [PERCH](/publication/2026-perch) · [STARE](/publication/2026-stare) (**submitted**, first author) · [OCC-MLLM](/projects/#occ-mllm).
+    <article class="series-card">
+      <div class="series-card__media series-card__media--single">
+        <a href="/projects/#occ-mllm"><img src="/images/projects/occ-mllm/visualresults.jpg" alt="OCC-MLLM results" loading="lazy"></a>
+      </div>
+      <div class="series-card__body">
+        <div class="series-card__meta">
+          <span class="pub-badge pub-badge--first">First author</span>
+        </div>
+        <h3 class="series-card__title">OCC-MLLM series</h3>
+        <p>Occlusion reasoning with multimodal LLMs across <em>IVC</em> / <em>CVIU</em> / <em>JVCIR</em> — 3D-aware supervision, CoT, and self-correction.</p>
+        <div class="series-card__links">
+          <a href="/projects/#occ-mllm">Overview</a>
+          <a href="https://github.com/chaoyiwang09/OCC-MLLM">Code</a>
+        </div>
+      </div>
+    </article>
 
-Full list: [Publications](/publications/) · [Google Scholar](https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=en) · [Research](/research/).
+    <article class="series-card">
+      <div class="series-card__media series-card__media--single">
+        <a href="/projects/#clear"><img src="/images/projects/clear/preview_english1.jpg" alt="CLEAR demo preview" loading="lazy"></a>
+      </div>
+      <div class="series-card__body">
+        <div class="series-card__meta">
+          <span class="pub-badge pub-badge--oral">Oral</span>
+          <span class="pub-badge pub-badge--equal">Equal contrib.</span>
+        </div>
+        <h3 class="series-card__title">CLEAR · ICML 2026</h3>
+        <p>Mask-free video subtitle removal with <strong>0.77%</strong> trainable parameters and zero-shot cross-lingual transfer.</p>
+        <div class="series-card__links">
+          <a href="/projects/#clear">Demos</a>
+          <a href="https://arxiv.org/abs/2603.21901">arXiv</a>
+          <a href="/publication/2026-clear">Entry</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="series-card">
+      <div class="series-card__media series-card__media--single">
+        <a href="/projects/#reasonbrain"><img src="/images/projects/reasonbrain/cover.jpg" alt="ReasonBrain cover" loading="lazy"></a>
+      </div>
+      <div class="series-card__body">
+        <div class="series-card__meta">
+          <span class="pub-badge">ICML 2026</span>
+        </div>
+        <h3 class="series-card__title">ReasonBrain</h3>
+        <p>Hypothetical instruction-based image editing with physical, temporal, causal, and story-level reasoning.</p>
+        <div class="series-card__links">
+          <a href="/projects/#reasonbrain">Demos</a>
+          <a href="https://arxiv.org/abs/2507.01908">arXiv</a>
+        </div>
+      </div>
+    </article>
+  </div>
 </div>
 
-<div class="content-block" markdown="1">
-<div class="content-block__title">Research Interests</div>
-
-<ul class="interest-tags">
-  <li>Sensor Intelligence / Robust Sensing</li>
-  <li>Low-resolution Perception</li>
-  <li>Generative AI / Video Generation</li>
-  <li>Vision-Language Reasoning</li>
-  <li>Embodied AI / Occlusion Understanding</li>
-  <li>Edge UAV Systems</li>
-</ul>
+<div class="content-block reveal-on-scroll">
+  <div class="content-block__title">Research Interests</div>
+  <ul class="interest-tags">
+    <li>Sensor Intelligence / Robust Sensing</li>
+    <li>Low-resolution Perception</li>
+    <li>Generative AI / Video Generation</li>
+    <li>Vision-Language Reasoning</li>
+    <li>Embodied AI / Occlusion Understanding</li>
+    <li>Edge UAV Systems</li>
+  </ul>
 </div>
 
-Feel free to reach out at [chaoyiwang@aliyun.com](mailto:chaoyiwang@aliyun.com) or [chaoyiwang@mail.sim.ac.cn](mailto:chaoyiwang@mail.sim.ac.cn).
+<p class="research-contact">Feel free to reach out at <a href="mailto:chaoyiwang@aliyun.com">chaoyiwang@aliyun.com</a> or <a href="mailto:chaoyiwang@mail.sim.ac.cn">chaoyiwang@mail.sim.ac.cn</a>.</p>

@@ -45,6 +45,17 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' %}
+          {% assign post = page %}
+          <div class="pub-page-meta">
+            {% include pub-badges.html %}
+            <p class="pub-actions">
+              {% if page.paperurl %}<a class="pub-action-link" href="{{ page.paperurl }}">Paper</a>{% endif %}
+              {% if page.paperurl %}{% if page.bibtex %} <span class="pub-action-sep">·</span> {% endif %}{% endif %}
+              {% include bibtex-copy.html %}
+            </p>
+          </div>
+        {% endif %}
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}

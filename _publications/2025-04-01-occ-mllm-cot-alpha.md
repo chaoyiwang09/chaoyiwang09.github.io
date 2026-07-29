@@ -8,6 +8,16 @@ date: 2025-04-01
 venue: 'arXiv preprint arXiv:2504.04781'
 paperurl: 'https://arxiv.org/abs/2504.04781'
 citation: '<b>Chaoyi Wang</b>, B. Li, X. Di. (2025). "OCC-MLLM-CoT-Alpha: Towards Multi-stage Occlusion Recognition Based on Large Language Models via 3D-Aware Supervision and Chain-of-Thoughts Guidance." <i>arXiv preprint arXiv:2504.04781</i>.'
+badges:
+  - first
+bibtex: |
+  @misc{wang2025occalpha,
+    title={OCC-MLLM-CoT-Alpha: Towards Multi-stage Occlusion Recognition Based on Large Language Models via 3D-Aware Supervision and Chain-of-Thoughts Guidance},
+    author={Wang, Chaoyi and Li, B. and Di, X.},
+    year={2025},
+    eprint={2504.04781},
+    archivePrefix={arXiv}
+  }
 ---
 
 Early OCC-MLLM release with 3D-aware supervision and multi-stage CoT. [arXiv](https://arxiv.org/abs/2504.04781) · [Code](https://github.com/chaoyiwang09/OCC-MLLM) · [Projects](/projects/#occ-mllm)

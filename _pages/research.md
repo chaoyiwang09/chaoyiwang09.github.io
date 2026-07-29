@@ -9,7 +9,7 @@ redirect_from:
 
 A concise research narrative. Demos: [Projects](/projects/). Papers: [Publications](/publications/).
 
-<div class="content-block content-block--accent" markdown="1">
+<div class="content-block content-block--accent reveal-on-scroll" markdown="1">
 <div class="content-block__title">Agenda</div>
 
 I aim to build **embodied multimodal agents** that remain reliable when the world is only partially observed. The path is cumulative:
@@ -21,15 +21,15 @@ I aim to build **embodied multimodal agents** that remain reliable when the worl
 </ol>
 </div>
 
-<div class="content-block" markdown="1">
+<div class="content-block reveal-on-scroll" markdown="1">
 <div class="content-block__title">Why this matters</div>
 
 Many strong vision–language models still fail when evidence is incomplete. Embodied settings make this failure mode unavoidable: motion, viewpoint limits, occlusion, and onboard compute constraints are the default, not the edge case. My work treats partial observability as a first-class research problem rather than a robustness afterthought.
 </div>
 
-<div class="content-block__title content-block__title--standalone">Three threads</div>
+<div class="content-block__title content-block__title--standalone reveal-on-scroll">Three threads</div>
 
-<div class="thread-grid">
+<div class="thread-grid reveal-on-scroll">
   <article class="thread-card">
     <span class="thread-card__step">Thread 01</span>
     <h3 class="thread-card__title">Sensor foundations</h3>

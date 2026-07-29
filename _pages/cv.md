@@ -1,4 +1,4 @@
-﻿---
+---
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -26,7 +26,7 @@ redirect_from:
   <a href="#publications">Publications</a>
 </nav>
 
-<div id="education" class="content-block content-block--accent" markdown="1">
+<div id="education" class="content-block content-block--accent reveal-on-scroll" markdown="1">
 <div class="content-block__title">Education</div>
 
 <ul class="cv-timeline">
@@ -54,7 +54,7 @@ redirect_from:
 </ul>
 </div>
 
-<div id="experience" class="content-block" markdown="1">
+<div id="experience" class="content-block reveal-on-scroll" markdown="1">
 <div class="content-block__title">Experience</div>
 
 <ul class="cv-timeline">
@@ -77,7 +77,7 @@ redirect_from:
 </ul>
 </div>
 
-<div id="highlights" class="content-block" markdown="1">
+<div id="highlights" class="content-block reveal-on-scroll" markdown="1">
 <div class="content-block__title">Selected Highlights</div>
 
 <ul class="block-list">
@@ -89,7 +89,7 @@ redirect_from:
 </ul>
 </div>
 
-<div id="interests" class="content-block" markdown="1">
+<div id="interests" class="content-block reveal-on-scroll" markdown="1">
 <div class="content-block__title">Research Interests</div>
 
 <ul class="interest-tags">
@@ -102,7 +102,7 @@ redirect_from:
 </ul>
 </div>
 
-<div id="skills" class="content-block" markdown="1">
+<div id="skills" class="content-block reveal-on-scroll" markdown="1">
 <div class="content-block__title">Skills</div>
 
 <ul class="cv-skill-rows">
@@ -125,7 +125,7 @@ redirect_from:
 </ul>
 </div>
 
-<div id="awards" class="content-block" markdown="1">
+<div id="awards" class="content-block reveal-on-scroll" markdown="1">
 <div class="content-block__title">Selected Patents &amp; Awards</div>
 
 <ul class="block-list">
@@ -134,7 +134,7 @@ redirect_from:
 </ul>
 </div>
 
-<div id="publications" class="content-block">
+<div id="publications" class="content-block reveal-on-scroll">
   <div class="content-block__title">Publications</div>
   <p class="demo-note">Grouped by type. Full list also on <a href="/publications/">Publications</a> and <a href="https://scholar.google.com/citations?user=e_wL1LsAAAAJ&hl=en">Google Scholar</a>.</p>
 

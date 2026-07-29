@@ -7,4 +7,14 @@ excerpt: 'Neural-network-based high-resolution range profile multi-target detect
 date: 2023-09-01
 venue: 'IET Radar, Sonar & Navigation, 17(9), 1430–1440'
 citation: 'L. Sun, H. Liu, <b>Chaoyi Wang</b>, B. Li. (2023). "HDT Network: A high-resolution range profile multi-target detection and tracking method based on neural network." <i>IET Radar, Sonar & Navigation</i>, 17(9), 1430–1440.'
+bibtex: |
+  @article{sun2023hdt,
+    title={HDT Network: A high-resolution range profile multi-target detection and tracking method based on neural network},
+    author={Sun, L. and Liu, H. and Wang, Chaoyi and Li, B.},
+    journal={IET Radar, Sonar \& Navigation},
+    volume={17},
+    number={9},
+    pages={1430--1440},
+    year={2023}
+  }
 ---

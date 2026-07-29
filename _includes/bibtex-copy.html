@@ -1,0 +1,6 @@
+{% if post.bibtex and post.bibtex != blank %}
+<span class="bibtex-wrap">
+  <button type="button" class="bibtex-copy" aria-label="Copy BibTeX citation">Copy BibTeX</button>
+  <pre class="bibtex-source" hidden>{{ post.bibtex | strip }}</pre>
+</span>
+{% endif %}

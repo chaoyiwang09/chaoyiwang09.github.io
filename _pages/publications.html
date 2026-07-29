@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">Complete list on <a href="{{site.author.googlescholar}}">Google Scholar</a>. “*” = equal contribution. Demos: <a href="/projects/">Projects</a>.</div>
+  <div class="wordwrap">Complete list on <a href="{{site.author.googlescholar}}">Google Scholar</a>. “*” = equal contribution. Use <strong>Copy BibTeX</strong> on each entry. Demos: <a href="/projects/">Projects</a>.</div>
 {% endif %}
 
 {% include base_path %}
@@ -25,18 +25,58 @@ author_profile: true
   <a href="#preprints">Preprints</a>
 </nav>
 
-<div id="featured" class="content-block content-block--accent pub-featured">
+<div id="featured" class="content-block content-block--accent pub-featured reveal-on-scroll">
   <div class="content-block__title">Featured</div>
-  <ul>
-    <li><strong>PERCH</strong> &amp; <strong>STARE</strong> (first author) — embodied edge-UAV · <a href="/publication/2026-perch">PERCH</a> · <a href="/publication/2026-stare">STARE</a> · <a href="/projects/#perch">projects</a></li>
-    <li><strong>CLEAR</strong> — ICML 2026 <strong>Oral &amp; Spotlight</strong> (*equal contribution*) · <a href="/publication/2026-clear">entry</a> · <a href="/projects/#clear">demos</a> · <a href="https://arxiv.org/abs/2603.21901">arXiv</a></li>
-    <li><strong>Reasoning to Edit</strong> — ICML 2026 · <a href="/publication/2025-reasoning-to-edit">entry</a> · <a href="/projects/#reasonbrain">demos</a> · <a href="https://arxiv.org/abs/2507.01908">arXiv</a></li>
-    <li><strong>OCC-MLLM series</strong> (first author) — IVC / CVIU / JVCIR · <a href="/projects/#occ-mllm">overview</a></li>
-    <li><strong>Vehicle Sound Detection</strong> (first author) — <i>Remote Sensing</i>, 2022 · <a href="/publication/2022-vehicle-sound-detection">entry</a></li>
-  </ul>
+
+  <div class="series-grid series-grid--pubs">
+    <article class="series-card">
+      <div class="series-card__body">
+        <div class="series-card__meta">
+          <span class="pub-badge pub-badge--submitted">Submitted</span>
+          <span class="pub-badge pub-badge--first">First author</span>
+        </div>
+        <h3 class="series-card__title">PERCH &amp; STARE</h3>
+        <p>Embodied edge-UAV pair: viewpoint ObjectNav and spend-to-verify commitment.</p>
+        <div class="series-card__links">
+          <a href="/publication/2026-perch">PERCH</a>
+          <a href="/publication/2026-stare">STARE</a>
+          <a href="/projects/#perch">Projects</a>
+        </div>
+      </div>
+    </article>
+    <article class="series-card">
+      <div class="series-card__body">
+        <div class="series-card__meta">
+          <span class="pub-badge pub-badge--oral">Oral</span>
+          <span class="pub-badge pub-badge--spotlight">Spotlight</span>
+          <span class="pub-badge pub-badge--equal">Equal</span>
+        </div>
+        <h3 class="series-card__title">CLEAR · ICML 2026</h3>
+        <p>Mask-free video subtitle removal; 0.77% trainable parameters.</p>
+        <div class="series-card__links">
+          <a href="/publication/2026-clear">Entry</a>
+          <a href="/projects/#clear">Demos</a>
+          <a href="https://arxiv.org/abs/2603.21901">arXiv</a>
+        </div>
+      </div>
+    </article>
+    <article class="series-card">
+      <div class="series-card__body">
+        <div class="series-card__meta">
+          <span class="pub-badge pub-badge--first">First author</span>
+        </div>
+        <h3 class="series-card__title">OCC-MLLM series</h3>
+        <p>Occlusion reasoning with MLLMs — IVC / CVIU / JVCIR.</p>
+        <div class="series-card__links">
+          <a href="/projects/#occ-mllm">Overview</a>
+          <a href="/publication/2025-occ-mllm-cot">IVC</a>
+          <a href="/publication/2026-occ-mllm-v1-cviu">CVIU</a>
+        </div>
+      </div>
+    </article>
+  </div>
 </div>
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -45,7 +85,7 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <div id="{{ category[0] }}" class="pub-category">
+        <div id="{{ category[0] }}" class="pub-category reveal-on-scroll">
         <h2>{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}

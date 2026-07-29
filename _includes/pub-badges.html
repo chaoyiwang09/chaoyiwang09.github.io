@@ -1,0 +1,38 @@
+{% comment %}
+  Renders publication badges from post.badges (array).
+  Known keys: first, equal, oral, spotlight, submitted
+{% endcomment %}
+{% assign badge_list = post.badges | default: nil %}
+{% if post.category == 'submitted' %}
+  {% assign has_submitted = false %}
+  {% if badge_list %}
+    {% for b in badge_list %}
+      {% if b == 'submitted' %}{% assign has_submitted = true %}{% endif %}
+    {% endfor %}
+  {% endif %}
+  {% unless has_submitted %}
+    {% if badge_list %}
+      {% assign badge_list = badge_list | push: 'submitted' %}
+    {% else %}
+      {% assign badge_list = 'submitted' | split: ',' %}
+    {% endif %}
+  {% endunless %}
+{% endif %}
+{% if badge_list and badge_list.size > 0 %}
+<div class="pub-badges">
+  {% for b in badge_list %}
+    {% case b %}
+      {% when 'first' %}
+        <span class="pub-badge pub-badge--first">First author</span>
+      {% when 'equal' %}
+        <span class="pub-badge pub-badge--equal">Equal contrib.</span>
+      {% when 'oral' %}
+        <span class="pub-badge pub-badge--oral">Oral</span>
+      {% when 'spotlight' %}
+        <span class="pub-badge pub-badge--spotlight">Spotlight</span>
+      {% when 'submitted' %}
+        <span class="pub-badge pub-badge--submitted">Submitted</span>
+    {% endcase %}
+  {% endfor %}
+</div>
+{% endif %}
