@@ -55,7 +55,7 @@ Many strong vision–language models still fail when evidence is incomplete. Emb
   <article class="thread-card">
     <span class="thread-card__step">Thread 03</span>
     <h3 class="thread-card__title">Embodied occlusion intelligence</h3>
-    <p>First-author <strong>OCC-MLLM</strong> series (IVC / CVIU / JVCIR), from a <strong>State Grid Shanghai</strong> order on unmanned substations: the alarm is not “a person walked in” but “what is in the hand,” and that object is often occluded. Closing the loop on a UAV that deploys itself: approach (<strong>PERCH</strong> &amp; <strong>STARE</strong>, submitted), then perch — the gripper already holds outdoors; choosing the branch is the next sensor-fusion build.</p>
+    <p>First-author <strong>OCC-MLLM</strong> series (IVC / CVIU / JVCIR), from a <strong>State Grid Shanghai</strong> order on unmanned substations: the alarm is not “a person walked in” but “what is in the hand,” and that object is often occluded. Closing the loop on a UAV that deploys itself: approach (<strong>PERCH</strong> &amp; <strong>STARE</strong>, submitted), then perch — outdoor grasp is already shown; locating the branch is the next sensor-fusion build.</p>
     <div class="thread-card__links">
       <a href="/projects/#uav">UAV recon →</a>
       ·

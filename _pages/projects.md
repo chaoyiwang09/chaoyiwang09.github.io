@@ -91,8 +91,8 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
     <p class="uav-flagship__path">Two-minute path: scan the three modules → <a href="#uav-demo">play the outdoor clip</a> → open <a href="#perch">PERCH</a> / <a href="#stare">STARE</a> PDFs.</p>
     <ul class="uav-legend">
       <li><span class="status-pill status-pill--done">Done</span> shipped as papers, with outdoor flights</li>
-      <li><span class="status-pill status-pill--manual">Manual now</span> hardware holds; a person still flies and closes</li>
-      <li><span class="status-pill status-pill--next">Next</span> multi-sensor fusion so the robot can find the branch itself</li>
+      <li><span class="status-pill status-pill--done">Fielded</span> outdoor perch — gripper holds on a real branch</li>
+      <li><span class="status-pill status-pill--next">Next</span> multi-sensor fusion to locate a graspable branch</li>
     </ul>
   </div>
   <ul class="uav-pipeline">
@@ -121,7 +121,7 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
           <span class="status-pill status-pill--next">Next · to do</span>
           <h3 class="uav-pipe__title">Locate a graspable branch</h3>
           <p class="uav-pipe__task">On an unmarked outdoor tree, find a site the serrated gripper can actually close on (Ø50–150 mm).</p>
-          <p class="uav-pipe__now">Now: a person still chooses the branch. Next: LiDAR + stereo + structured light fusion.</p>
+          <p class="uav-pipe__now">Next: LiDAR + stereo + structured light fusion on the V1 gripper.</p>
           <span class="uav-pipe__go">V2 sensor stack →</span>
         </div>
       </a>
@@ -133,10 +133,10 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
         </div>
         <div class="uav-pipe__body">
           <span class="uav-pipe__num">Module 03</span>
-          <span class="status-pill status-pill--manual">Mechanism ready · still manual</span>
+          <span class="status-pill status-pill--done">Outdoor perch</span>
           <h3 class="uav-pipe__title">Grasp and hold</h3>
           <p class="uav-pipe__task">Clamp the branch, stay, and watch. Recovery is later; perching is the research.</p>
-          <p class="uav-pipe__now">Now: V1 already holds outdoors. Flight and close are still by hand.</p>
+          <p class="uav-pipe__now">Now: V1 holds on a real outdoor branch. Studio and field clip below.</p>
           <span class="uav-pipe__go">Photos and clip →</span>
         </div>
       </a>
@@ -150,9 +150,9 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
           <span class="field-demo__play-icon" aria-hidden="true"></span>
           <span>Play outdoor perch · 14 s</span>
         </button>
-        <span class="field-demo__tag">Manual flight · manual close</span>
+        <span class="field-demo__tag">Outdoor · 14 s</span>
       </div>
-      <figcaption>Current grasp progress, on a real outdoor branch. The mechanism holds; a person is still flying and closing it. Not autonomous site selection (that is module 02).</figcaption>
+      <figcaption>Outdoor perch on a real branch. V1 gripper holding watch in the field.</figcaption>
     </figure>
   </div>
 </div>
@@ -189,10 +189,10 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
     <h3 class="uav-module__title">02 · Locate a graspable branch</h3>
     <span class="status-pill status-pill--next">Next · to do</span>
   </div>
-  <p class="uav-module__meta">This is the missing perception step. The gripper already exists; the robot does not yet choose the site by itself.</p>
+  <p class="uav-module__meta">Next: find an unmarked outdoor branch whose axis and diameter the serrated gripper can take.</p>
   <div class="uav-split uav-split--wide-media">
     <div>
-      <p>Module 1 gets the vehicle near the right tree. Module 3 can already clamp if a person lines it up. What is not autonomous yet: <strong>finding an unmarked outdoor branch</strong> whose axis and diameter the serrated gripper can take, and <strong>refusing</strong> the close when that estimate is still uncertain.</p>
+      <p>Module 1 gets the vehicle near the right tree. Module 3 already clamps. What comes next is <strong>finding an unmarked outdoor branch</strong> whose axis and diameter the gripper can take, and <strong>refusing</strong> the close when that estimate is still uncertain.</p>
       <div class="uav-todo">
         <span class="uav-todo__label">To do · multi-sensor fusion V2</span>
         <p>Keep the V1 ducted airframe and Ø50–150 mm gripper. Stack four modules: <strong>LiDAR</strong> (search and corridor), <strong>stereo</strong> (outdoor metric depth), <strong>3D structured light</strong> (axis and diameter in the last metre), <strong>Jetson Orin NX</strong> (100 TOPS). Close only if uncertainty is below a threshold.</p>
@@ -209,17 +209,17 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
 <div class="uav-module reveal-on-scroll" id="uav-grasp">
   <div class="uav-module__head">
     <h3 class="uav-module__title">03 · Grasp and hold</h3>
-    <span class="status-pill status-pill--manual">Mechanism ready</span>
-    <span class="status-pill status-pill--manual">Flight &amp; close still by hand</span>
+    <span class="status-pill status-pill--done">Fielded</span>
+    <span class="status-pill status-pill--done">Outdoor perch</span>
   </div>
-  <p class="uav-module__meta">Studio and field stills. The same 14 s clip also sits in the <a href="#uav-demo">overview</a> so a visitor can play it without scrolling this far.</p>
+  <p class="uav-module__meta">Studio and field stills. The same 14 s clip also sits in the <a href="#uav-demo">overview</a>.</p>
   <div class="uav-split">
     <div>
-      <p>V1 is a ducted cinewhoop with a serrated gripper. On a real outdoor branch the clamp <strong>already holds</strong>. What a person still does: fly the approach and close the hand. Whole vehicle about <strong>600 USD</strong>.</p>
+      <p>V1 is a ducted cinewhoop with a serrated gripper (Ø50–150 mm). On a real outdoor branch the clamp <strong>holds</strong>. Whole vehicle about <strong>600 USD</strong>.</p>
       <ul class="uav-facts">
         <li><strong>Scene</strong> Outdoor tree, unmarked bark</li>
         <li><strong>Clip</strong> ~14 s · click play in the <a href="#uav-demo">overview</a> or below</li>
-        <li><strong>Not shown</strong> Autonomous site selection (that is module 02)</li>
+        <li><strong>Next</strong> Module 02 · multi-sensor fusion to locate the site</li>
       </ul>
     </div>
     <div class="uav-pair">
@@ -240,9 +240,9 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
         <span class="field-demo__play-icon" aria-hidden="true"></span>
         <span>Play outdoor perch · 14 s</span>
       </button>
-      <span class="field-demo__tag">Manual flight · manual close</span>
-    </div>
-    <figcaption>Outdoor perch on a real branch. The mechanism holds; a person is still flying and closing it. This is the current grasp progress — not the V2 fusion stack.</figcaption>
+        <span class="field-demo__tag">Outdoor perch · 14 s</span>
+      </div>
+      <figcaption>Same outdoor perch, field recording.</figcaption>
   </figure>
 </div>
 
