@@ -672,6 +672,12 @@ html[data-theme="dark"] .interest-tags li {
   background: #e8f2f8;
 }
 
+.pub-badge--ongoing {
+  color: #7a3e12;
+  border-color: #d4a574;
+  background: #f8f0e6;
+}
+
 .pub-actions {
   margin: 0.45rem 0 0.35rem;
   font-size: 0.9rem;
@@ -900,7 +906,8 @@ html[data-theme="dark"] .interest-tags li {
   .series-card,
   .research-path__step,
   .thread-card,
-  .project-section {
+  .project-section,
+  .uav-pipe {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
@@ -940,6 +947,12 @@ html[data-theme="dark"] .pub-badge--submitted {
   color: #9ec9e0;
   border-color: #4a7088;
   background: #1e2a33;
+}
+
+html[data-theme="dark"] .pub-badge--ongoing {
+  color: #e2c19a;
+  border-color: #8a6540;
+  background: #2c241c;
 }
 
 html[data-theme="dark"] .pub-badge--first {
@@ -986,4 +999,56 @@ html[data-theme="dark"] .notice--info {
 
 html[data-theme="dark"] .list__item {
   border-bottom-color: var(--academic-rule);
+}
+
+/* UAV / project jump — win over academic_polish element rules */
+.page__content .proj-jump a {
+  color: var(--academic-ink);
+  text-decoration: none !important;
+}
+
+.page__content .proj-jump a.is-active,
+.page__content .proj-jump a:hover,
+.page__content .proj-jump a:focus {
+  color: var(--academic-accent);
+}
+
+.page__content .uav-pipe__title {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.page__content .uav-flagship__lead,
+.page__content .uav-flagship__path,
+.page__content .uav-pipe__task,
+.page__content .uav-pipe__now,
+.page__content .uav-pipe__go,
+.page__content .uav-module__meta {
+  margin-bottom: 0;
+}
+
+.page__content .uav-pipe__now {
+  margin-top: 0.25rem;
+}
+
+.page__content .uav-pipeline,
+.page__content .uav-legend,
+.page__content .uav-facts {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.page__content .uav-pipeline > li,
+.page__content .uav-legend li {
+  margin-bottom: 0;
+}
+
+.page__content .uav-facts li {
+  margin-bottom: 0;
+}
+
+.page__content a.uav-pipe {
+  color: inherit !important;
+  text-decoration: none !important;
 }
