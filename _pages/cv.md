@@ -84,7 +84,7 @@ redirect_from:
   <li><strong>Submitted</strong> — PERCH &amp; STARE (<em>first author</em>): viewpoint-conditioned aerial ObjectNav and spend-to-verify risk-controlled commitment on edge UAVs.</li>
   <li><strong>ICML 2026 Oral &amp; Spotlight</strong> — CLEAR (<em>equal contribution</em>): mask-free video subtitle removal; 0.77% trainable parameters.</li>
   <li><strong>ICML 2026</strong> — Reasoning to Edit / ReasonBrain: hypothetical instruction-based image editing.</li>
-  <li><strong>First-author OCC-MLLM series</strong> — occlusion reasoning with multimodal LLMs (IVC / CVIU / JVCIR).</li>
+  <li><strong>First-author OCC-MLLM series</strong> — occlusion reasoning with multimodal LLMs (IVC / CVIU / JVCIR), from a State Grid Shanghai unmanned-substation deployment (copper-cable theft).</li>
   <li><strong>First-author sensor work</strong> — real-time vehicle sound detection (<em>Remote Sensing</em>, 2022).</li>
 </ul>
 </div>

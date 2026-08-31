@@ -1052,3 +1052,13 @@ html[data-theme="dark"] .list__item {
   color: inherit !important;
   text-decoration: none !important;
 }
+
+.page__content .field-callout p,
+.page__content .decision-chain__step p {
+  margin-bottom: 0.35rem;
+}
+
+.page__content .decision-chain__step p:last-child,
+.page__content .field-callout p:last-child {
+  margin-bottom: 0;
+}

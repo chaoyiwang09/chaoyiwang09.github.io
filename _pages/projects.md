@@ -44,7 +44,7 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
       <li>
         <span class="project-index__name"><a href="#occ-mllm">OCC-MLLM</a></span>
         <span class="project-index__venue">IVC / CVIU / JVCIR</span>
-        <span class="project-index__blurb">Occlusion MLLM reasoning · +11.14% decision score</span>
+        <span class="project-index__blurb">State Grid Shanghai substations · occluded tools · +11.14%</span>
       </li>
     </ul>
   </div>
@@ -315,15 +315,33 @@ Across six aerial datasets, four frozen depth backbones, and three target catego
 <div class="project-section reveal-on-scroll" markdown="1" id="occ-mllm">
 
 <div class="series-banner series-banner--inner">
-  <div class="series-banner__label">Series</div>
-  <div class="series-banner__body">First-author OCC-MLLM line: occlusion as a first-class multimodal reasoning problem across IVC / CVIU / JVCIR.</div>
+  <div class="series-banner__label">Field → thesis</div>
+  <div class="series-banner__body">Commissioned by State Grid Shanghai on unmanned substations. Person detection is not the alarm; an occluded tool in the hand is — that gap is the OCC-MLLM series (IVC / CVIU / JVCIR).</div>
 </div>
 
 <h2 class="project-section__title">OCC-MLLM Series — Occlusion Reasoning with MLLMs</h2>
 
-<p class="project-section__meta"><strong>First author</strong> · <i>Image and Vision Computing</i> · <i>CVIU</i> · <i>JVCIR</i> · arXiv</p>
+<p class="project-section__meta"><strong>First author</strong> · <i>Image and Vision Computing</i> · <i>CVIU</i> · <i>JVCIR</i> · fielded with State Grid Shanghai</p>
 
-The **OCC-MLLM** series studies how multimodal LLMs infer properties of **occluded / partially observed** objects using 3D-aware supervision, chain-of-thought guidance, self-correction, and joint understanding–generation — a core capability for embodied agents under incomplete visual evidence. Across the series, models improve occlusion decision quality substantially (e.g., OCC-MLLM-CoT reports **+11.14%** decision score over SOTA MLLMs).
+<div class="field-callout">
+  <span class="field-callout__label">Deployed · State Grid Shanghai</span>
+  <p>Order and on-site deployment: unattended sensors on <strong>unmanned substations</strong>, to stop <strong>copper-cable theft</strong>. The sensing stack is already in the field. Completing the alarm logic still needs to know what is in the hand.</p>
+</div>
+
+<div class="decision-chain" aria-label="Alarm logic">
+  <div class="decision-chain__step">
+    <span class="decision-chain__kicker">Not enough</span>
+    <p>Person detected <strong>≠</strong> alarm</p>
+    <small>Technicians enter the yard too; a person-only detector false-alarms.</small>
+  </div>
+  <div class="decision-chain__step decision-chain__step--go">
+    <span class="decision-chain__kicker">What should fire</span>
+    <p>Person + cutting tool + location → <strong>priority</strong></p>
+    <small>The tool is often occluded. That is the research problem.</small>
+  </div>
+</div>
+
+The **OCC-MLLM** series is the Ph.D. answer to that gap: infer properties of **occluded / partially observed** hand-held objects with 3D-aware supervision, chain-of-thought guidance, self-correction, and joint understanding–generation. First: is the current view enough? If not: reconstruct, then reason. Across the series, occlusion decision quality rises substantially (e.g., OCC-MLLM-CoT reports **+11.14%** decision score over SOTA MLLMs). The same question — *is my evidence enough?* — later returns on the UAV.
 
 <div class="project-links">
   <a class="btn btn--primary" href="https://github.com/chaoyiwang09/OCC-MLLM">Code</a>
@@ -337,7 +355,7 @@ The **OCC-MLLM** series studies how multimodal LLMs infer properties of **occlud
   <a href="/images/projects/occ-mllm/visualresults.jpg"><img src="/images/projects/occ-mllm/visualresults.jpg" alt="OCC-MLLM visual results"></a>
   <a href="/images/projects/occ-mllm/dataset.jpg"><img src="/images/projects/occ-mllm/dataset.jpg" alt="OCC-MLLM dataset samples"></a>
 </figure>
-<p class="demo-note">Figures from <a href="https://github.com/chaoyiwang09/OCC-MLLM">chaoyiwang09/OCC-MLLM</a>.</p>
+<p class="demo-note">Figures from <a href="https://github.com/chaoyiwang09/OCC-MLLM">chaoyiwang09/OCC-MLLM</a>. Field story: State Grid Shanghai unmanned substations; the papers address the occluded hand-held tool.</p>
 </div>
 
 <div class="project-domain" id="domain-generative">

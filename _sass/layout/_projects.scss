@@ -757,3 +757,88 @@ html[data-theme="dark"] .uav-todo__label {
 html[data-theme="dark"] .proj-jump {
   background: var(--academic-paper);
 }
+
+/* Field deployment callout (OCC-MLLM / substations) */
+.field-callout {
+  margin: 0.35rem 0 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--academic-rule);
+  border-left: 3px solid var(--academic-accent);
+  background: var(--academic-accent-soft);
+  border-radius: 0 4px 4px 0;
+}
+
+.field-callout__label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--academic-accent);
+  font-family: var(--global-font-family, sans-serif);
+}
+
+.field-callout p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--academic-ink);
+}
+
+.decision-chain {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.65rem;
+  margin: 0 0 1.15rem;
+}
+
+@media (min-width: 640px) {
+  .decision-chain {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.decision-chain__step {
+  margin: 0;
+  padding: 0.85rem 0.95rem;
+  border: 1px solid var(--academic-rule);
+  border-radius: 4px;
+  background: var(--academic-paper);
+}
+
+.decision-chain__step--go {
+  border-color: var(--academic-accent);
+  background: var(--academic-accent-soft);
+}
+
+.decision-chain__kicker {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--academic-muted);
+  font-family: var(--global-font-family, sans-serif);
+}
+
+.decision-chain__step p {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  font-weight: 650;
+  color: var(--academic-ink);
+  font-family: var(--global-font-family, sans-serif);
+}
+
+.decision-chain__step small {
+  display: block;
+  font-size: 0.84rem;
+  color: var(--academic-muted);
+  line-height: 1.45;
+}
+
+html[data-theme="dark"] .field-callout,
+html[data-theme="dark"] .decision-chain__step--go {
+  background: var(--academic-accent-soft);
+}

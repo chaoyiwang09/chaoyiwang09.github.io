@@ -56,7 +56,7 @@ My research focuses on **embodied multimodal intelligence**: building agents tha
     <li><strong>[Jul 28, 2026]</strong> Submitted <a href="/projects/#perch">PERCH</a> and <a href="/projects/#stare">STARE</a> (<em>first author</em>) — embodied edge-UAV viewpoint navigation &amp; risk-controlled commitment. <a href="/projects/#perch">PDFs →</a></li>
     <li><strong>[May 2026]</strong> <a href="https://arxiv.org/abs/2603.21901">CLEAR</a> accepted as an <strong>Oral</strong> (and Spotlight) at <strong>ICML 2026</strong> (<em>equal contribution</em>). <a href="/projects/#clear">Demos →</a></li>
     <li><strong>[May 2026]</strong> <a href="https://arxiv.org/abs/2507.01908">Reasoning to Edit</a> accepted at <strong>ICML 2026</strong>. <a href="/projects/#reasonbrain">Demos →</a></li>
-    <li><strong>[2025–2026]</strong> OCC-MLLM series (first author) in <em>IVC</em>, <em>CVIU</em>, and <em>JVCIR</em>. <a href="/projects/#occ-mllm">Overview →</a></li>
+    <li><strong>[2025–2026]</strong> OCC-MLLM series (first author) in <em>IVC</em>, <em>CVIU</em>, and <em>JVCIR</em> — motivated by a State Grid Shanghai unmanned-substation deployment. <a href="/projects/#occ-mllm">Overview →</a></li>
   </ul>
 </div>
 
@@ -92,9 +92,10 @@ My research focuses on **embodied multimodal intelligence**: building agents tha
       <div class="series-card__body">
         <div class="series-card__meta">
           <span class="pub-badge pub-badge--first">First author</span>
+          <span class="pub-badge">State Grid Shanghai</span>
         </div>
         <h3 class="series-card__title">OCC-MLLM series</h3>
-        <p>Occlusion reasoning with multimodal LLMs across <em>IVC</em> / <em>CVIU</em> / <em>JVCIR</em> — 3D-aware supervision, CoT, and self-correction.</p>
+        <p>From a <strong>State Grid Shanghai</strong> deployment on unmanned substations (copper-cable theft): person detection is not the alarm — an occluded tool in the hand is. Then IVC / CVIU / JVCIR.</p>
         <div class="series-card__links">
           <a href="/projects/#occ-mllm">Overview</a>
           <a href="https://github.com/chaoyiwang09/OCC-MLLM">Code</a>
