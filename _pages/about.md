@@ -44,7 +44,7 @@ My research focuses on **embodied multimodal intelligence**: building agents tha
       <span class="research-path__num">03</span>
       <strong class="research-path__label">Embody</strong>
       <span class="research-path__desc">Close the loop on edge UAVs — decide what to sense and when to act</span>
-      <a class="research-path__link" href="/projects/#uav">UAV recon · PERCH / STARE →</a>
+      <a class="research-path__link" href="/projects/#uav">UAV monitoring · PERCH / STARE →</a>
     </li>
   </ol>
 </div>
@@ -52,7 +52,7 @@ My research focuses on **embodied multimodal intelligence**: building agents tha
 <div class="content-block reveal-on-scroll">
   <div class="content-block__title">News</div>
   <ul class="block-list">
-    <li><strong>[Aug 2026]</strong> UAV reconnaissance is now a three-module page: approach (PERCH / STARE, submitted), outdoor perch, next = multi-sensor fusion. <a href="/projects/#uav">Play the field clip →</a></li>
+    <li><strong>[Aug 2026]</strong> Autonomous UAV monitoring is now a three-module page: approach (PERCH / STARE, submitted), outdoor perch, next = multi-sensor fusion. <a href="/projects/#uav">Play the field clip →</a></li>
     <li><strong>[Jul 28, 2026]</strong> Submitted <a href="/projects/#perch">PERCH</a> and <a href="/projects/#stare">STARE</a> (<em>first author</em>) — embodied edge-UAV viewpoint navigation &amp; risk-controlled commitment. <a href="/projects/#perch">PDFs →</a></li>
     <li><strong>[May 2026]</strong> <a href="https://arxiv.org/abs/2603.21901">CLEAR</a> accepted as an <strong>Oral</strong> (and Spotlight) at <strong>ICML 2026</strong> (<em>equal contribution</em>). <a href="/projects/#clear">Demos →</a></li>
     <li><strong>[May 2026]</strong> <a href="https://arxiv.org/abs/2507.01908">Reasoning to Edit</a> accepted at <strong>ICML 2026</strong>. <a href="/projects/#reasonbrain">Demos →</a></li>
@@ -75,7 +75,7 @@ My research focuses on **embodied multimodal intelligence**: building agents tha
           <span class="pub-badge pub-badge--submitted">Papers submitted</span>
           <span class="pub-badge pub-badge--first">First author</span>
         </div>
-        <h3 class="series-card__title">UAV reconnaissance · three modules</h3>
+        <h3 class="series-card__title">Autonomous UAV monitoring · three modules</h3>
         <p>Approach the target (PERCH &amp; STARE, submitted) · locate a graspable branch (sensor-fusion V2, next) · grasp and hold (outdoor perch). Field clip on the project page.</p>
         <div class="series-card__links">
           <a href="/projects/#uav">Overview &amp; demo</a>

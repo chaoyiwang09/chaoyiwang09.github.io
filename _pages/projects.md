@@ -13,7 +13,7 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
 
 <nav class="proj-jump reveal-on-scroll" aria-label="Jump to a project">
   <span class="proj-jump__label">On this page</span>
-  <a href="#uav">UAV recon</a>
+  <a href="#uav">UAV monitoring</a>
   <a href="#perch">PERCH</a>
   <a href="#stare">STARE</a>
   <a href="#occ-mllm">OCC-MLLM</a>
@@ -27,7 +27,7 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
     <div class="project-index__domain">Embodied AI</div>
     <ul class="project-index__items">
       <li>
-        <span class="project-index__name"><a href="#uav">UAV reconnaissance</a></span>
+        <span class="project-index__name"><a href="#uav">UAV monitoring</a></span>
         <span class="project-index__venue">Flagship · ongoing</span>
         <span class="project-index__blurb">Approach · locate a branch · grasp — status and field demo</span>
       </li>
@@ -86,7 +86,7 @@ Selected projects with papers, code, and visual demos. The UAV page is built so 
       <span class="status-pill status-pill--next">Ongoing</span>
       <span class="status-pill status-pill--done">Module 1 submitted</span>
     </div>
-    <h2 class="uav-flagship__title">Autonomous UAV reconnaissance</h2>
+    <h2 class="uav-flagship__title">Autonomous UAV monitoring</h2>
     <p class="uav-flagship__lead">Unattended sensors still have to be carried, placed, and retrieved. This project asks whether the sensing platform can <strong>deploy itself</strong>: fly to the named target, find a branch the gripper can close on, perch, and hold watch.</p>
     <p class="uav-flagship__path">Two-minute path: scan the three modules → <a href="#uav-demo">play the outdoor clip</a> → open <a href="#perch">PERCH</a> / <a href="#stare">STARE</a> PDFs.</p>
     <ul class="uav-legend">
